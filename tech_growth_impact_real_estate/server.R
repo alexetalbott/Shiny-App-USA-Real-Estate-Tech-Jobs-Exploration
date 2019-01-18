@@ -13,9 +13,25 @@ shinyServer(function(input, output) {
   
  output$maptable <- renderTable({
    
-   master_data %>% filter(year == input$year) %>% arrange(desc(median_metro_value)) %>% head(input$n_rows_map)
-#   %>% leaflet() %>% addProviderTiles("CartoDB") %>% addMarkers(popup = c(master_data$Metro,as.character(master_data$median_metro_value)))
+   t <- master_data %>% select(Metro,State,math_and_programming_jobs,median_metro_value,year) %>% filter(year == input$year)
+     
+   if
+   (input$dfcolumn == 1){
+     t <- t %>% arrange(desc(math_and_programming_jobs))
+   }
+   else {
+     t <- t %>% arrange(desc(median_metro_value))
+   }
    
+   if
+   (input$top_or_bottom == 1){
+     t <- t %>% head(input$n_rows_map)
+   }
+   else {
+     t <- t %>% tail(input$n_rows_map)
+   }
+   
+  t 
    
  })
  
@@ -26,19 +42,25 @@ shinyServer(function(input, output) {
  output$mymap <- renderLeaflet({
    
    map_data <- master_data %>% filter(year == input$year) %>% arrange(desc(median_metro_value))
+
    if
-    (input$top_or_bottom == 1){
-      map_data <- map_data %>% head(input$n_rows_map)
-    }
+   (input$dfcolumn == 1){
+     map_data <- map_data %>% arrange(desc(as.integer(map_data$math_and_programming_jobs)))
+   }
+   else {
+     map_data <- map_data %>% arrange(desc(map_data$median_metro_value))
+   }
+   
+   if
+   (input$top_or_bottom == 1){
+     map_data <- map_data %>% head(input$n_rows_map)
+   }
    else {
      map_data <- map_data %>% tail(input$n_rows_map)
    }
-   g <- map_data %>% leaflet() %>% addProviderTiles(providers$Stamen.TonerLite,options = providerTileOptions(noWrap = TRUE)) %>% addMarkers(popup = c(map_data$Metro,as.character(map_data$median_metro_value)))
    
-   #
-   #
+   map_data %>% leaflet() %>% addProviderTiles(providers$Stamen.TonerLite,options = providerTileOptions(noWrap = TRUE)) %>% addMarkers(popup = c(map_data$Metro,as.character(map_data$median_metro_value)))
    
-   g
  })
   
   

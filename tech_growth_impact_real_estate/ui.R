@@ -1,6 +1,40 @@
 shinyUI(
   fluidPage(
     tabsetPanel(
+      tabPanel("Map",
+               sidebarLayout(
+                 sidebarPanel(
+                   selectInput(inputId = "top_or_bottom", label = "Select:", 
+                               choices=list("Top" = 1, "Bottom" = 0),
+                               selected="Top"),
+                   selectInput(inputId = "n_rows_map", label = "(Choose a quantity)", 
+                               choices=list("5" =5, "10"=10, "20"=20, "50"=50, "100"=100),
+                               selected="5"),
+                   sliderInput(inputId = "year",
+                               label = "from the year",
+                               min = 2000,
+                               max = 2017,
+                               value = 2007,
+                               sep = ""
+                   ),
+                   selectInput(inputId = "dfcolumn", label = "by", 
+                               choices=list("Median Zillow Home Value Estimate" = 0, "Total Programming Jobs" = 1),
+                               selected="Median Zillow Home Value Estimate")
+                 ),
+                 mainPanel(
+                   fluidRow(
+                     box(
+                       leafletOutput("mymap",width=950)
+                     )
+                   ),
+                   fluidRow(
+                     box(
+                       tableOutput(outputId = "maptable")
+                     )
+                   )
+                 )
+               )       
+      ),
       tabPanel("Charts",
         sidebarLayout(
           sidebarPanel(
@@ -19,34 +53,6 @@ shinyUI(
             )
           )
         )
-      ),
-      tabPanel("Map",
-        sidebarLayout(
-          sidebarPanel(
-            "This is another sidebar"
-          ),
-          mainPanel(
-            selectInput(inputId = "top_or_bottom", label = "Select:", 
-                        choices=list("Top" = 1, "Bottom" = 0),
-                        selected="Top"),
-            selectInput(inputId = "n_rows_map", label = "(Choose a quantity)", 
-                        choices=list("5" =5, "10"=10, "20"=20, "50"=50, "100"=100),
-                        selected="5"),
-            sliderInput(inputId = "year",
-                        label = "from the year",
-                        min = 2000,
-                        max = 2017,
-                        value = 2007,
-                        sep = ""
-                        ),
-            box(
-              leafletOutput("mymap")
-            ),
-            box(
-              tableOutput(outputId = "maptable")
-            )
-          )
-        )       
       )
     )
   )
