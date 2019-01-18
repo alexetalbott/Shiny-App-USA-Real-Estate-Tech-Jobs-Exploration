@@ -1,0 +1,6 @@
+library(shinydashboard)
+library(tidyverse)
+library(ggmap)
+library(leaflet)
+master_data <- read_csv("data/master_data.csv")
+master_data_2007 <- master_data %>% filter(year==2007)

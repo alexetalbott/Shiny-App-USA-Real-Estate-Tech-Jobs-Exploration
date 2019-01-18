@@ -14,6 +14,10 @@ bls_data <- read.csv("data/metro/bls_master.csv")
 bls_data$area_name <- sub(" MSA","",bls_data$area_name)
 bls_data$area_name <- sub(" PMSA","",bls_data$area_name)
 bls_data$area_name <- sub(" Metropolitan Division","",bls_data$area_name)
+bls_allOccupations <- bls_data %>% filter(as.character(occ_titl) == "All Occupations")
+bls_majorGroups <- bls_data %>% filter(as.character(group) == "major")
+bls_data_clean <- bls_data %>% filter(as.character(occ_titl) != "All Occupations" & tot_emp != "**")
+
 
 ## clean up zillow data
 
@@ -84,19 +88,35 @@ leaflet() %>% addProviderTiles("CartoDB") %>% setView(lng = dsk$lon[1], lat = ds
 
 ## matching BLS and zillow data -- just an example, need to do for full file
 
-bls_2007 <- bls_data %>% filter(year==2007)
-View(bls_2007)
+bls_2007 <- bls_data_clean %>% filter(year==2007 & is.na(group) & as.character(occ_titl) != "All Occupations")
+
+bls_2007 <- bls_2007 %>% mutate(tot_emp)
 
 zillow_2007 <- ng_slim %>% filter(year==2007) %>% group_by(year, Metro, State) %>% summarize(median_metro_value = mean(median_value))
 
-zillow_2007 <- zillow_2007 %>% unite(metro_st,Metro:State,sep=", ",remove=FALSE)
+zillow_2007 <- zillow_2007 %>% unite(metro_st,Metro:State,sep=", ",remove=FALSE) %>% arrange(desc(median_metro_value))
 
 
 ## TO DO BEFORE MERGE -- ADD POPULATION DATA TO BLS_SLIM... BUT I don't necessarily need to  add population... could use the "workforce" figure (not 'tech workforce figure') for filtering
 
 bls_2007$tot_emp <- as.numeric(bls_2007$tot_emp)
 
-bls_2007_slim <- bls_2007 %>% group_by(area_name) %>% summarise(workforce = sum(tot_emp))
+bls_2007_slim <- bls_2007 %>% group_by(area_name) %>% summarise(workforce = sum(tot_emp)) %>% arrange(desc(workforce))
+
+bls_2007_nashville <- bls_2007 %>% filter(grepl("Nashville",as.character(area_name)))
+
+bls_2007_allOccupations <- bls_allOccupations %>% filter(year=="2007")
+
+bls_2007_groups <- bls_majorGroups %>% filter(year=="2007")
+
+bls_2007_groups_nashville <- bls_majorGroups %>% filter(year=="2007" & grepl("Nashville", as.character(area_name)))
+
+sum(as.numeric(bls_2007_groups_nashville$tot_emp))
+
+sum(as.numeric(bls_2007_nashville$tot_emp))
+
+summary(bls_2007_nashville$tot_emp)
+nrows()
 
 zillow_bls_2007 <- inner_join(bls_2007_slim,zillow_2007,by=c("area_name"="metro_st"))
 
