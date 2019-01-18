@@ -7,10 +7,10 @@ library(ggmap)
 library(leaflet)
 
 ## zillow data Apr 1996- Oct 2018 by month
-neighborhood_values <- read.csv("data/Neighborhood_Zhvi_AllHomes.csv")
+neighborhood_values <- read.csv("data - all/Neighborhood_Zhvi_AllHomes.csv")
 
 ## bls data 2000 - 2017 by year
-bls_data <- read.csv("data/metro/bls_master.csv")
+bls_data <- read.csv("data - all/metro/bls_master.csv")
 bls_data$area_name <- sub(" MSA","",bls_data$area_name)
 bls_data$area_name <- sub(" PMSA","",bls_data$area_name)
 bls_data$area_name <- sub(" Metropolitan Division","",bls_data$area_name)
@@ -88,7 +88,11 @@ master_data$lon <- geocode(as.character(master_data$city_state),source="dsk")$lo
 master_data %>% filter(year==2011) %>% leaflet %>% addProviderTiles("CartoDB") %>% addMarkers(popup = c(master_data$city_state,master_data$median_metro_value,master_data$math_and_programming_jobs))  
 
 
-write_csv(master_data,"data/master_data.csv")
+#write_csv(master_data,"data/master_data.csv")
+
+#write_csv(anti_matcher_comp,"data - all/anti_match_comp.csv")
+
+#write_csv(zillow_bls_comp,"data - all/zillow_bls_comp.csv")
 
 dataSelect <- master_data %>% filter(as.character(city_state) == "Austin-Round Rock, TX")
 

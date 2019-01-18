@@ -26,14 +26,17 @@ shinyUI(
             "This is another sidebar"
           ),
           mainPanel(
-            selectInput(inputId = "n_rows_map", label = "Select Top:", 
+            selectInput(inputId = "top_or_bottom", label = "Select:", 
+                        choices=list("Top" = 1, "Bottom" = 0),
+                        selected="Top"),
+            selectInput(inputId = "n_rows_map", label = "(Choose a quantity)", 
                         choices=list("5" =5, "10"=10, "20"=20, "50"=50, "100"=100),
                         selected="5"),
             sliderInput(inputId = "year",
-                        label = "Select Year",
+                        label = "from the year",
                         min = 2000,
                         max = 2017,
-                        value = 2000,
+                        value = 2007,
                         sep = ""
                         ),
             box(

@@ -18,12 +18,27 @@ shinyServer(function(input, output) {
    
    
  })
+ 
+ points <- eventReactive(input$recalc, {
+   cbind(rnorm(40) * 2 + 13, rnorm(40) + 48)
+ }, ignoreNULL = FALSE)
   
- output$myMap <- renderLeaflet({
+ output$mymap <- renderLeaflet({
    
-   master_data %>% filter(year == input$year) %>% arrange(desc(median_metro_value)) %>% head(input$n_rows_map) %>% leaflet() %>% addProviderTiles("CartoDB") %>% addMarkers(popup = c(master_data$Metro,as.character(master_data$median_metro_value)))
+   map_data <- master_data %>% filter(year == input$year) %>% arrange(desc(median_metro_value))
+   if
+    (input$top_or_bottom == 1){
+      map_data <- map_data %>% head(input$n_rows_map)
+    }
+   else {
+     map_data <- map_data %>% tail(input$n_rows_map)
+   }
+   g <- map_data %>% leaflet() %>% addProviderTiles(providers$Stamen.TonerLite,options = providerTileOptions(noWrap = TRUE)) %>% addMarkers(popup = c(map_data$Metro,as.character(map_data$median_metro_value)))
    
+   #
+   #
    
+   g
  })
   
   
