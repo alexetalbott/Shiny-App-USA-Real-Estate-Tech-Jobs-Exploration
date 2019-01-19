@@ -8,6 +8,12 @@ shinyServer(function(input, output) {
     ggplot(dfnn) + aes(x=year, y=value) + geom_bar(aes(fill=metric), stat="identity", position= position_dodge(width=0.65), width=0.9)+
       scale_y_continuous(sec.axis = sec_axis(~.*.2))  + labs(title=paste0(input$cities," Real Estate & Tech Jobs"))
     
+    
+    
+#    dfn <- master_data %>% gather(metric,value,math_and_programming_jobs:median_metro_value) %>% select(city_state,year,metric,value) %>% filter(as.character(city_state == input$cities))
+#    ggplot(dfn) + aes(x=year, y=value) + geom_bar(aes(fill=metric), stat="identity", position="dodge") + labs(title=paste0(input$cities," Real Estate & Tech Jobs"))+
+#    geom_bar(data=master_data %>% filter(as.character(city_state) == input$cities),aes(x=year, y=math_and_programming_jobs),stat="identity",fill="tan1", position="dodge") +
+#    scale_y_continuous(sec.axis = sec_axis(~.*0.5))
   })   
   
   output$value_plot2 <- renderPlot({
@@ -21,10 +27,15 @@ shinyServer(function(input, output) {
 
   })   
   
+  # output$tech_plot <- renderPlot({
+  #   
+  #   ggplot(master_data %>% filter(as.character(city_state) == input$cities)) + aes(x=year, y=math_and_programming_jobs) + geom_bar(stat="identity") + labs(title=paste0(input$cities," Tech Jobs"))
+  #   
+  # })   
+  
  output$maptable <- renderTable({
    
-   t <- master_data %>% select(Metro,State,math_and_programming_jobs,median_metro_value,year) %>% 
-     filter(year == input$year)
+   t <- master_data %>% select(Metro,State,math_and_programming_jobs,median_metro_value,year) %>% filter(year == input$year)
      
    if
    (input$dfcolumn == 1){
@@ -45,7 +56,11 @@ shinyServer(function(input, output) {
   t 
    
  })
-
+ 
+ points <- eventReactive(input$recalc, {
+   cbind(rnorm(40) * 2 + 13, rnorm(40) + 48)
+ }, ignoreNULL = FALSE)
+  
  output$mymap <- renderLeaflet({
    
    map_data <- master_data %>% filter(year == input$year) %>% arrange(desc(median_metro_value))
@@ -61,19 +76,12 @@ shinyServer(function(input, output) {
    if
    (input$top_or_bottom == 1){
      map_data <- map_data %>% head(input$n_rows_map)
-#     mappy <- map_data %>% leaflet() %>% addProviderTiles(providers$Stamen.TonerLite,options = providerTileOptions(noWrap = TRUE)) %>%
-#       addCircleMarkers(radius=3, popup = as.character(map_data$math_and_programming_jobs))
    }
    else {
      map_data <- map_data %>% tail(input$n_rows_map)
-#     mappy <- map_data %>% leaflet() %>% addProviderTiles(providers$Stamen.TonerLite,options = providerTileOptions(noWrap = TRUE)) %>%
-#       addCircleMarkers(radius=3, popup = as.character(map_data$median_metro_value))
    }
    
-   mappy <- map_data %>% leaflet() %>% addProviderTiles(providers$Stamen.TonerLite,options = providerTileOptions(noWrap = TRUE)) %>%
-   addCircleMarkers(radius=3, popup = paste0("Median Home Value: $",as.character(round(map_data$median_metro_value,0))))
-   
-   mappy
+   map_data %>% leaflet() %>% addProviderTiles(providers$Stamen.TonerLite,options = providerTileOptions(noWrap = TRUE)) %>% addMarkers(popup = c(map_data$Metro,as.character(map_data$median_metro_value)))
    
  })
   

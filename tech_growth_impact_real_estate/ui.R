@@ -13,7 +13,7 @@ shinyUI(
                    sliderInput(inputId = "year",
                                label = "from the year",
                                min = 2000,
-                               max = 2017,
+                               max = 2016,
                                value = 2007,
                                sep = ""
                    ),
@@ -36,26 +36,29 @@ shinyUI(
                )       
       ),
       tabPanel("Charts",
-        sidebarLayout(
-          sidebarPanel(
-            "This is the sidebar"
-          ),
+        fluidRow(
           mainPanel(
-            selectInput(inputId = "cities", label = "Select City", 
-                        choices=list("Austin-Round Rock, TX" = "Austin-Round Rock, TX",
-                                     "Columbus, OH"="Columbus, OH","Pittsburgh, PA"="Pittsburgh, PA"),
-                        selected="Austin-Round Rock, TX"),
-            box(
-              plotOutput(outputId = "value_plot")
-            ),
-            box(
-              plotOutput(outputId = "tech_plot")
-            )
+             fluidRow(
+              selectInput(inputId = "cities", label = "Select City", 
+                          choices=list("Austin-Round Rock, TX" = "Austin-Round Rock, TX",
+                                       "Columbus, OH"="Columbus, OH","Pittsburgh, PA"="Pittsburgh, PA"),
+                          selected="Austin-Round Rock, TX")
+             ),
+             fluidRow(
+                  plotOutput(outputId = "value_plot")
+             ),
+             fluidRow(
+               selectInput(inputId = "cities2", label = "Select City", 
+                           choices=list("Austin-Round Rock, TX" = "Austin-Round Rock, TX",
+                                        "Columbus, OH"="Columbus, OH","Pittsburgh, PA"="Pittsburgh, PA"),
+                           selected="Columbus, OH")
+             ),
+             fluidRow(
+               plotOutput(outputId = "value_plot2")
+             )
           )
         )
       )
     )
   )
-  
-  
 )
