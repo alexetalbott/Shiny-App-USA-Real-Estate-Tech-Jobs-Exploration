@@ -39,6 +39,16 @@ shinyUI(
         ),
         tabPanel("Charts",
             tabsetPanel(
+              tabPanel("Scatterplot",
+                       selectInput(inputId = "year_scatter", label = "Select Year", 
+                                   choices=list("2000" = "2000","2005"="2005","2010"="2010","2015"="2015"),
+                                   selected="2000"),
+                       pickerInput(inputId = "state_scatter", label = "Select State", 
+                                   choices= NULL, options = list(`actions-box` = TRUE),multiple = T),
+                       fluidRow(
+                         plotlyOutput(outputId = "scatterplot_year")
+                       )
+              ), 
               tabPanel("City Comparison",     
                 fluidRow(
                  mainPanel(
@@ -53,23 +63,13 @@ shinyUI(
                    ),
                    fluidRow(
                      selectInput(inputId = "cities2", label = "Select City", 
-                                 choices=list("Austin-Round Rock, TX" = "Austin-Round Rock, TX",
-                                              "Columbus, OH"="Columbus, OH","Pittsburgh, PA"="Pittsburgh, PA"),
-                                 selected="Columbus, OH")
+                                 choices= NULL)
                    ),
                    fluidRow(
                      plotOutput(outputId = "value_plot2")
                    )
                 )
                )
-              ),
-              tabPanel("Scatterplot",
-                selectInput(inputId = "year_scatter", label = "Select Year", 
-                            choices=list("2000" = "2000","2005"="2005","2010"="2010","2015"="2015"),
-                            selected="2000"),
-                 fluidRow(
-                   plotlyOutput(outputId = "scatterplot_year")
-                 )
               ) ## end of tabItem 2
             ) ## end of tabItems
         ) ## end of Chart tabPanel

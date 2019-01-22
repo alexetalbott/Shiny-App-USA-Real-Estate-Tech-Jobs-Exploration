@@ -1,4 +1,4 @@
-shinyServer(function(input, output) {
+shinyServer(function(input, output, session) {
   
   yearInput <- reactive({
     if(input$dfcolumn == "median_metro_value"){
@@ -55,6 +55,39 @@ shinyServer(function(input, output) {
     tableshow
   })  
   
+  ### page 2 tab 1
+  
+
+  observe({
+    updateSelectInput(session = session, inputId = "state_scatter", choices = sort(unique(master_data$State)))
+  })
+  
+  
+  output$scatterplot_year <- renderPlotly({
+    
+    validate(need(input$state_scatter != "","     Please select at least one state"))
+    
+    grouped_year <- master_data %>% filter(year== as.integer(input$year_scatter) & State %in% input$state_scatter) %>% select (State,city_state, math_and_programming_jobs, median_metro_value)
+    
+    grouped_year$pc <- predict(prcomp(~math_and_programming_jobs, grouped_year))[,1]
+    
+    
+    scatteryear <- ggplot(grouped_year, aes(math_and_programming_jobs, median_metro_value, color = State, label=city_state)) + 
+      geom_point(shape=16, size=5, show.legend = FALSE, alpha=.4) + theme_minimal()  + 
+      scale_y_continuous(labels=comma) + #scale_color_gradient(low = "#0091ff", high = "#f0650e") +
+      labs(title = paste0("Zestimate by Tech Jobs for the Year ", input$year_scatter), x="# of Tech Jobs", y="Zestimate") +
+      scale_x_log10()# + coord_flip()
+    
+    ggplotly(scatteryear)
+    
+  })
+  
+  ## page 2 tab 2
+  
+  observe({
+    updateSelectInput(session = session, inputId = "cities2", choices = unique(master_data$city_state))
+  })
+  
   output$value_plot <- renderPlot({
     
     dfn <- master_data %>% mutate(math_and_programming_jobs = math_and_programming_jobs*5)
@@ -77,21 +110,5 @@ shinyServer(function(input, output) {
 
   })   
 
-  output$scatterplot_year <- renderPlotly({
-  
-    grouped_year <- master_data %>% filter(year== as.integer(input$year_scatter)) %>% select (city_state, math_and_programming_jobs, median_metro_value)
-  
-  grouped_year$pc <- predict(prcomp(~math_and_programming_jobs, grouped_year))[,1]
-  
-  
-  scatteryear <- ggplot(grouped_year, aes(math_and_programming_jobs, median_metro_value, color = pc, label=city_state)) + 
-    geom_point(shape=16, size=5, show.legend = FALSE, alpha=.4) + theme_minimal()  + 
-    scale_y_continuous(labels=comma) + scale_color_gradient(low = "#0091ff", high = "#f0650e") +
-    labs(title = paste0("Zestimate by Tech Jobs for the Year ", input$year_scatter), x="# of Tech Jobs", y="Zestimate") +
-    scale_x_log10()# + coord_flip()
-  
-  ggplotly(scatteryear)
 
-  })
-  
 })
