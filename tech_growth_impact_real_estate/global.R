@@ -1,5 +1,7 @@
 library(shinydashboard)
+library(shinythemes)
 library(tidyverse)
 library(ggmap)
 library(leaflet)
-master_data <- read_csv("data/master_data.csv")
+master_data <- read_rds("data/master_data.rds")
+
