@@ -31,7 +31,6 @@ shinyUI(
                      ),
                      fluidRow(
                        box(
-                         "This is a table",
                          tableOutput(outputId = "maptable")
                        )
                      )
@@ -66,10 +65,10 @@ shinyUI(
               ),
               tabPanel("Scatterplot",
                 selectInput(inputId = "year_scatter", label = "Select Year", 
-                            choices=list("2000" = 2000,"2005"=2005,"2010"=2010,"2015"=2015),
+                            choices=list("2000" = "2000","2005"="2005","2010"="2010","2015"="2015"),
                             selected="2000"),
                  fluidRow(
-                   plotOutput(outputId = "scatterplot_year")
+                   plotlyOutput(outputId = "scatterplot_year")
                  )
               ) ## end of tabItem 2
             ) ## end of tabItems

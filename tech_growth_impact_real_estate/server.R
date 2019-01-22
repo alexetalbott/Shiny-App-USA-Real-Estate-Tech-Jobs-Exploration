@@ -15,7 +15,7 @@ shinyServer(function(input, output) {
   nrowsInput <- reactive({
     if (topbottomInput() == "bottom"){
     switch(input$n_rows_map,
-           "5" = yearInput() %>% tail(),
+           "5" = yearInput() %>% tail(5),
            "10" = yearInput() %>% tail(10),
            "20" = yearInput() %>% tail(20),
            "50" = yearInput() %>% tail(50),
@@ -40,18 +40,18 @@ shinyServer(function(input, output) {
     radiusValue <- reactive({
       switch(input$dfcolumn,
              "median_metro_value" = mapdata$median_metro_value/100000,
-             "math_and_programming_jobs" = mapdata$math_and_programming_jobs/5000
+             "math_and_programming_jobs" = mapdata$math_and_programming_jobs/10000
              
       )
     })
 
     mapdata %>% leaflet() %>% addProviderTiles(providers$Stamen.TonerLite,options = providerTileOptions(noWrap = TRUE)) %>%
-      addCircleMarkers(lng=mapdata$lon, lat=mapdata$lat, radius= ~ radiusValue(), popup = paste0("Median Home Value: $",as.character(comma(mapdata$median_metro_value)),"<br>"," Tech Jobs: ",as.character(comma(mapdata$math_and_programming_jobs))))
+      addCircleMarkers(lng=mapdata$lon, lat=mapdata$lat, radius= ~ radiusValue(), popup = paste0(mapdata$city_state,"<br>","Median Home Value: $",as.character(comma(mapdata$median_metro_value)),"<br>"," Tech Jobs: ",as.character(comma(mapdata$math_and_programming_jobs))))
     
 })  
   output$maptable <- renderTable({
     
-    tableshow <- nrowsInput()
+    tableshow <- nrowsInput() %>% select(Metro, State, math_and_programming_jobs, median_metro_value, year) %>% rename(`Tech Jobs`= math_and_programming_jobs, "Zestimate" = median_metro_value)
     tableshow
   })  
   
@@ -66,7 +66,7 @@ shinyServer(function(input, output) {
     
   })   
   
-  output$value_plot2 <- renderPlot({
+  output$value_plot2 <- renderPlotly({
     
     dfn <- master_data %>% mutate(math_and_programming_jobs = math_and_programming_jobs*5)
     dfnn <- dfn %>% gather(metric,value,math_and_programming_jobs:median_metro_value) %>% filter(city_state == input$cities2) %>% select(city_state,year,metric,value)
@@ -77,4 +77,21 @@ shinyServer(function(input, output) {
 
   })   
 
+  output$scatterplot_year <- renderPlotly({
+  
+    grouped_year <- master_data %>% filter(year== as.integer(input$year_scatter)) %>% select (city_state, math_and_programming_jobs, median_metro_value)
+  
+  grouped_year$pc <- predict(prcomp(~math_and_programming_jobs, grouped_year))[,1]
+  
+  
+  scatteryear <- ggplot(grouped_year, aes(math_and_programming_jobs, median_metro_value, color = pc, label=city_state)) + 
+    geom_point(shape=16, size=5, show.legend = FALSE, alpha=.4) + theme_minimal()  + 
+    scale_y_continuous(labels=comma) + scale_color_gradient(low = "#0091ff", high = "#f0650e") +
+    labs(title = paste0("Zestimate by Tech Jobs for the Year ", input$year_scatter), x="# of Tech Jobs", y="Zestimate") +
+    scale_x_log10()# + coord_flip()
+  
+  ggplotly(scatteryear)
+
+  })
+  
 })
