@@ -39,12 +39,18 @@ shinyUI(
         ),
         tabPanel("Charts",
             tabsetPanel(
-              tabPanel("Scatterplot",
-                       selectInput(inputId = "year_scatter", label = "Select Year", 
-                                   choices=list("2000" = "2000","2005"="2005","2010"="2010","2015"="2015"),
-                                   selected="2000"),
+              tabPanel("State Scatterplot",
+                       sliderInput(inputId = "year_scatter",
+                                   label = "Select Year",
+                                   min = 2000,
+                                   max = 2016,
+                                   value = 2000,
+                                   sep = "",
+                                   animate=TRUE
+                       ),
                        pickerInput(inputId = "state_scatter", label = "Select State", 
                                    choices= NULL, options = list(`actions-box` = TRUE),multiple = T),
+                       checkboxInput("checkbox", label = "scale x axis?", value = FALSE),
                        fluidRow(
                          plotlyOutput(outputId = "scatterplot_year")
                        )
@@ -53,10 +59,8 @@ shinyUI(
                 fluidRow(
                  mainPanel(
                    fluidRow(
-                    selectInput(inputId = "cities", label = "Select City", 
-                                choices=list("Austin-Round Rock, TX" = "Austin-Round Rock, TX",
-                                             "Columbus, OH"="Columbus, OH","Pittsburgh, PA"="Pittsburgh, PA"),
-                                selected="Austin-Round Rock, TX")
+                       selectInput(inputId = "cities2", label = "Select City", 
+                                   choices= NULL)
                    ),
                    fluidRow(
                         plotOutput(outputId = "value_plot")
@@ -71,7 +75,7 @@ shinyUI(
                 )
                )
               ) ## end of tabItem 2
-            ) ## end of tabItems
+            ) ## end of second page tabItems
         ) ## end of Chart tabPanel
       ) ## of main TabsetPanel
     ) ## end of fluidPage

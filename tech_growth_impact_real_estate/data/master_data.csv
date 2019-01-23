@@ -2082,3 +2082,743 @@ Green Bay,WI,2440,109279.1667,2003,"Green Bay, WI",44.480778,-88.016063
 Madison,WI,10430,189196.2302,2003,"Madison, WI",43.06956,-89.423861
 Racine,WI,820,224133.3333,2003,"Racine, WI",42.727153,-87.675979
 Charleston,WV,1570,86512.5,2003,"Charleston, WV",38.350719,-81.630359
+Birmingham-Hoover,AL,9250,113241.0714,2000,"Birmingham, AL",33.520661,-86.80249
+Little Rock-North Little Rock-Conway,AR,4030,109142.2222,2000,"Little Rock-North Little Rock, AR",34.708985,-92.235641
+Phoenix-Mesa-Scottsdale,AZ,42200,160649.0366,2000,"Phoenix-Mesa, AZ",33.42227,-111.82264
+Chico,CA,420,110075,2000,"Chico-Paradise, CA",39.75961,-121.62192
+Los Angeles-Long Beach-Anaheim,CA,84050,309871.2733,2000,"Los Angeles-Long Beach, CA",34.047247,-118.246183
+Riverside-San Bernardino-Ontario,CA,5660,157464.2063,2000,"Riverside-San Bernardino, CA",34.033515,-117.502665
+Sacramento--Roseville--Arden-Arcade,CA,19610,184758.1425,2000,"Sacramento, CA",38.380456,-121.555406
+San Diego-Carlsbad,CA,36420,264575.8403,2000,"San Diego, CA",32.724103,-117.170912
+San Francisco-Oakland-Hayward,CA,72750,493754.272,2000,"San Francisco, CA",37.784827,-122.727802
+San Jose-Sunnyvale-Santa Clara,CA,99430,721146.5556,2000,"San Jose, CA",37.189396,-121.705327
+Visalia-Porterville,CA,720,165769.4444,2000,"Visalia-Tulare-Porterville, CA",36.06523,-119.01677
+Boulder,CO,18460,303383.7963,2000,"Boulder-Longmont, CO",40.16721,-105.10193
+Denver-Aurora-Lakewood,CO,53960,200099.8405,2000,"Denver, CO",39.744773,-105.115977
+Fort Collins,CO,3540,189521.7172,2000,"Fort Collins-Loveland, CO",40.615974,-105.069249
+Bridgeport-Stamford-Norwalk,CT,4070,214658.3333,2000,"Bridgeport, CT",41.308873,-73.363661
+Hartford-West Hartford-East Hartford,CT,20930,136949.0741,2000,"Hartford, CT",41.752304,-72.758098
+New Haven-Milford,CT,4570,100268.4028,2000,"New Haven-Meriden, CT",41.53815,-72.80704
+Miami-Fort Lauderdale-West Palm Beach,FL,14160,142941.6136,2000,"Miami, FL",25.779808,-80.1532
+Naples-Immokalee-Marco Island,FL,910,681720.8333,2000,"Naples, FL",26.142036,-81.79481
+Orlando-Kissimmee-Sanford,FL,21830,143819.0217,2000,"Orlando, FL",28.545179,-81.373291
+Pensacola-Ferry Pass-Brent,FL,1590,106234.7222,2000,"Pensacola, FL",30.428781,-87.222516
+Atlanta-Sandy Springs-Roswell,GA,76980,308782.971,2000,"Atlanta, GA",33.844371,-84.47405
+Des Moines-West Des Moines,IA,8500,90041.66667,2000,"Des Moines, IA",41.672687,-93.572173
+Chicago-Naperville-Elgin,IL,107560,192039.9527,2000,"Chicago, IL",41.850033,-87.650052
+Peoria,IL,1460,49054.16667,2000,"Peoria-Pekin, IL",40.56754,-89.64066
+Indianapolis-Carmel-Anderson,IN,17660,120762.7874,2000,"Indianapolis, IN",39.775092,-86.13216
+Lafayette-West Lafayette,IN,970,100607.2917,2000,"Lafayette, IN",40.417778,-86.889633
+South Bend-Mishawaka,IN,1500,87972.22222,2000,"South Bend, IN",41.673383,-86.251654
+Lexington-Fayette,KY,4550,120987.963,2000,"Lexington, KY",37.98869,-84.47772
+New Orleans-Metairie,LA,7260,180945.3125,2000,"New Orleans, LA",30.068812,-89.930956
+Baltimore-Columbia-Towson,MD,29570,112566.8605,2000,"Baltimore, MD",39.324167,-76.719484
+Portland-South Portland,ME,4000,135221.4286,2000,"Portland, ME",43.658784,-70.262393
+Detroit-Warren-Dearborn,MI,47810,145947.4359,2000,"Detroit, MI",42.347021,-83.060184
+Grand Rapids-Wyoming,MI,6840,102400.3968,2000,"Grand Rapids-Muskegon-Holland, MI",42.993317,-85.5889
+Kalamazoo-Portage,MI,1950,96884.375,2000,"Kalamazoo-Battle Creek, MI",42.32115,-85.17971
+Greensboro-High Point,NC,10590,159041.6667,2000,"Greensboro--Winston-Salem--High Point, NC",36.079657,-79.748189
+Hickory-Lenoir-Morganton,NC,850,111308.3333,2000,"Hickory-Morganton-Lenoir, NC",35.23915,-77.64127
+Raleigh,NC,37260,173147.3684,2000,"Raleigh-Durham-Chapel Hill, NC",35.9132,-79.05584
+Manchester-Nashua,NH,2610,123688.5965,2000,"Manchester, NH",42.988483,-71.462111
+Vineland-Bridgeton,NJ,360,76116.66667,2000,"Vineland-Millville-Bridgeton, NJ",39.433288,-75.017849
+Buffalo-Cheektowaga-Niagara Falls,NY,8650,80167.2619,2000,"Buffalo-Niagara Falls, NY",42.537897,-76.649045
+New York-Newark-Jersey City,NY,101060,284138.0689,2000,"New York, NY",40.714269,-74.005973
+Cleveland-Elyria,OH,19470,184603.8462,2000,"Cleveland-Lorain-Elyria, OH",41.490728,-81.725831
+Dayton,OH,8760,90878.33333,2000,"Dayton-Springfield, OH",39.92423,-83.80882
+Youngstown-Warren-Boardman,OH,1880,61045.83333,2000,"Youngstown-Warren, OH",41.133716,-80.624079
+Eugene,OR,2030,145350.5208,2000,"Eugene-Springfield, OR",44.04624,-123.02203
+Harrisburg-Carlisle,PA,9020,60800,2000,"Harrisburg-Lebanon-Carlisle, PA",40.253789,-76.829482
+York-Hanover,PA,1380,105544.4444,2000,"York, PA",39.962998,-76.727139
+Nashville-Davidson--Murfreesboro--Franklin,TN,10250,144223.4444,2000,"Nashville, TN",36.165688,-86.778098
+Austin-Round Rock,TX,34540,184961.7041,2000,"Austin-San Marcos, TX",30.70013,-96.323824
+Dallas-Fort Worth-Arlington,TX,81530,137334.2735,2000,"Dallas, TX",32.781179,-96.790329
+Houston-The Woodlands-Sugar Land,TX,58840,143970.2083,2000,"Houston, TX",29.813142,-95.309789
+San Antonio-New Braunfels,TX,11530,110442.6049,2000,"San Antonio, TX",29.468413,-98.528889
+Salt Lake City,UT,22800,175267.5439,2000,"Salt Lake City-Ogden, UT",40.705141,-111.869687
+Richmond,VA,16070,139314.2157,2000,"Richmond-Petersburg, VA",37.914991,-76.858014
+Burlington-South Burlington,VT,2160,95783.33333,2000,"Burlington, VT",44.476622,-73.209998
+Bremerton-Silverdale,WA,1210,367700,2000,"Bremerton, WA",47.606478,-122.634712
+Olympia-Tumwater,WA,3160,133041.6667,2000,"Olympia, WA",46.984767,-122.869079
+Seattle-Tacoma-Bellevue,WA,76210,245729.7908,2000,"Seattle-Bellevue-Everett, WA",47.97898,-122.20208
+Spokane-Spokane Valley,WA,2980,96432.57576,2000,"Spokane, WA",47.65878,-117.426047
+Appleton,WI,2510,92451.66667,2000,"Appleton-Oshkosh-Neenah, WI",44.290005,-88.407506
+Milwaukee-Waukesha-West Allis,WI,16360,113958.9888,2000,"Milwaukee-Waukesha, WI",43.01168,-88.23148
+Birmingham-Hoover,AL,10020,144716.0714,2004,"Birmingham, AL",33.520661,-86.80249
+Little Rock-North Little Rock-Conway,AR,6450,136397.2222,2004,"Little Rock-North Little Rock, AR",34.708985,-92.235641
+Phoenix-Mesa-Scottsdale,AZ,37120,206695.5684,2004,"Phoenix-Mesa, AZ",33.42227,-111.82264
+Chico,CA,890,226300,2004,"Chico-Paradise, CA",39.75961,-121.62192
+Los Angeles-Long Beach-Anaheim,CA,83530,584957.5617,2004,"Los Angeles-Long Beach, CA",34.047247,-118.246183
+Riverside-San Bernardino-Ontario,CA,10530,313147.0126,2004,"Riverside-San Bernardino, CA",34.033515,-117.502665
+Sacramento--Roseville--Arden-Arcade,CA,23830,346332.4495,2004,"Sacramento, CA",38.380456,-121.555406
+San Diego-Carlsbad,CA,34840,530388.5854,2004,"San Diego, CA",32.724103,-117.170912
+San Francisco-Oakland-Hayward,CA,44870,695577.2563,2004,"San Francisco, CA",37.784827,-122.727802
+San Jose-Sunnyvale-Santa Clara,CA,61640,873636.4444,2004,"San Jose, CA",37.189396,-121.705327
+Visalia-Porterville,CA,880,253355.5556,2004,"Visalia-Tulare-Porterville, CA",36.06523,-119.01677
+Boulder,CO,11740,372616.8981,2004,"Boulder-Longmont, CO",40.16721,-105.10193
+Denver-Aurora-Lakewood,CO,43580,237969.4577,2004,"Denver, CO",39.744773,-105.115977
+Fort Collins,CO,3470,232657.3232,2004,"Fort Collins-Loveland, CO",40.615974,-105.069249
+Bridgeport-Stamford-Norwalk,CT,4330,321070,2004,"Bridgeport, CT",41.308873,-73.363661
+Hartford-West Hartford-East Hartford,CT,21160,214970.8333,2004,"Hartford, CT",41.752304,-72.758098
+New Haven-Milford,CT,5260,156034.0278,2004,"New Haven-Meriden, CT",41.53815,-72.80704
+Miami-Fort Lauderdale-West Palm Beach,FL,18570,260526.5295,2004,"Miami, FL",25.779808,-80.1532
+Naples-Immokalee-Marco Island,FL,1270,1218895.833,2004,"Naples, FL",26.142036,-81.79481
+Orlando-Kissimmee-Sanford,FL,20410,212935.1064,2004,"Orlando, FL",28.545179,-81.373291
+Pensacola-Ferry Pass-Brent,FL,2750,133859.7222,2004,"Pensacola, FL",30.428781,-87.222516
+Atlanta-Sandy Springs-Roswell,GA,77560,362860.2657,2004,"Atlanta, GA",33.844371,-84.47405
+Des Moines-West Des Moines,IA,9430,112585,2004,"Des Moines, IA",41.672687,-93.572173
+Chicago-Naperville-Elgin,IL,109680,271047.6359,2004,"Chicago, IL",41.850033,-87.650052
+Peoria,IL,2070,56362.5,2004,"Peoria-Pekin, IL",40.56754,-89.64066
+Indianapolis-Carmel-Anderson,IN,17500,132609.3391,2004,"Indianapolis, IN",39.775092,-86.13216
+Lafayette-West Lafayette,IN,1240,119795.8333,2004,"Lafayette, IN",40.417778,-86.889633
+South Bend-Mishawaka,IN,1790,87477.77778,2004,"South Bend, IN",41.673383,-86.251654
+Lexington-Fayette,KY,5070,152276.8519,2004,"Lexington, KY",37.98869,-84.47772
+New Orleans-Metairie,LA,7810,247850,2004,"New Orleans, LA",30.068812,-89.930956
+Baltimore-Columbia-Towson,MD,39000,189064.0625,2004,"Baltimore, MD",39.324167,-76.719484
+Portland-South Portland,ME,3340,233290.4762,2004,"Portland, ME",43.658784,-70.262393
+Detroit-Warren-Dearborn,MI,51670,185114.1026,2004,"Detroit, MI",42.347021,-83.060184
+Grand Rapids-Wyoming,MI,8130,126642.8571,2004,"Grand Rapids-Muskegon-Holland, MI",42.993317,-85.5889
+Kalamazoo-Portage,MI,1990,115973.9583,2004,"Kalamazoo-Battle Creek, MI",42.32115,-85.17971
+Greensboro-High Point,NC,10790,186016.6667,2004,"Greensboro--Winston-Salem--High Point, NC",36.079657,-79.748189
+Hickory-Lenoir-Morganton,NC,820,118912.5,2004,"Hickory-Morganton-Lenoir, NC",35.23915,-77.64127
+Raleigh,NC,35580,201864.9123,2004,"Raleigh-Durham-Chapel Hill, NC",35.9132,-79.05584
+Manchester-Nashua,NH,2460,212459.2105,2004,"Manchester, NH",42.988483,-71.462111
+Vineland-Bridgeton,NJ,360,81675,2004,"Vineland-Millville-Bridgeton, NJ",39.433288,-75.017849
+Buffalo-Cheektowaga-Niagara Falls,NY,9930,107348.5294,2004,"Buffalo-Niagara Falls, NY",42.537897,-76.649045
+New York-Newark-Jersey City,NY,102750,475106.1292,2004,"New York, NY",40.714269,-74.005973
+Cleveland-Elyria,OH,19990,216146.7949,2004,"Cleveland-Lorain-Elyria, OH",41.490728,-81.725831
+Dayton,OH,11050,105167.5,2004,"Dayton-Springfield, OH",39.92423,-83.80882
+Youngstown-Warren-Boardman,OH,1790,67270.83333,2004,"Youngstown-Warren, OH",41.133716,-80.624079
+Eugene,OR,2150,186979.1667,2004,"Eugene-Springfield, OR",44.04624,-123.02203
+Harrisburg-Carlisle,PA,9300,75508.33333,2004,"Harrisburg-Lebanon-Carlisle, PA",40.253789,-76.829482
+York-Hanover,PA,1490,127366.6667,2004,"York, PA",39.962998,-76.727139
+Nashville-Davidson--Murfreesboro--Franklin,TN,13340,169697.3333,2004,"Nashville, TN",36.165688,-86.778098
+Austin-Round Rock,TX,31420,192523.0337,2004,"Austin-San Marcos, TX",30.70013,-96.323824
+Dallas-Fort Worth-Arlington,TX,74160,149539.0171,2004,"Dallas, TX",32.781179,-96.790329
+Houston-The Woodlands-Sugar Land,TX,45940,154471.4583,2004,"Houston, TX",29.813142,-95.309789
+San Antonio-New Braunfels,TX,16290,121626.2693,2004,"San Antonio, TX",29.468413,-98.528889
+Salt Lake City,UT,20190,186506.5789,2004,"Salt Lake City-Ogden, UT",40.705141,-111.869687
+Richmond,VA,17890,203853.0093,2004,"Richmond-Petersburg, VA",37.914991,-76.858014
+Burlington-South Burlington,VT,3890,140491.6667,2004,"Burlington, VT",44.476622,-73.209998
+Bremerton-Silverdale,WA,1650,525733.3333,2004,"Bremerton, WA",47.606478,-122.634712
+Seattle-Tacoma-Bellevue,WA,68170,312486.0999,2004,"Seattle-Bellevue-Everett, WA",47.97898,-122.20208
+Spokane-Spokane Valley,WA,3000,115896.7391,2004,"Spokane, WA",47.65878,-117.426047
+Appleton,WI,2750,97138.33333,2004,"Appleton-Oshkosh-Neenah, WI",44.290005,-88.407506
+Milwaukee-Waukesha-West Allis,WI,18850,159320.2247,2004,"Milwaukee-Waukesha, WI",43.01168,-88.23148
+Little Rock-North Little Rock-Conway,AR,6520,148150.5208,2005,"Little Rock-North Little Rock, AR",34.708985,-92.235641
+Sacramento--Roseville--Arden-Arcade,CA,24970,416499.8106,2005,"Sacramento--Arden-Arcade--Roseville, CA",38.589407,-121.486546
+San Diego-Carlsbad,CA,34830,590530.3221,2005,"San Diego-Carlsbad-San Marcos, CA",40.946492,-124.114567
+San Francisco-Oakland-Hayward,CA,45840,805148.5259,2005,"San Francisco-San Mateo-Redwood City, CA",37.736112,-122.469886
+Stockton-Lodi,CA,1420,366109.4203,2005,"Stockton, CA",37.9577,-121.29078
+Denver-Aurora-Lakewood,CO,44110,245506.1404,2005,"Denver-Aurora, CO",39.72943,-104.83192
+Fort Collins,CO,3040,238490.9091,2005,"Fort Collins-Loveland, CO",40.615974,-105.069249
+New Haven-Milford,CT,5290,183052.4306,2005,"New Haven, CT",41.365709,-72.927507
+Lakeland-Winter Haven,FL,3050,132006.4815,2005,"Lakeland, FL",28.035908,-81.899669
+Miami-Fort Lauderdale-West Palm Beach,FL,16280,337586.2342,2005,"Miami-Miami Beach-Kendall, FL",25.67927,-80.31727
+Naples-Immokalee-Marco Island,FL,1080,1558159.167,2005,"Naples-Marco Island, FL",26.839229,-82.296985
+Orlando-Kissimmee-Sanford,FL,20600,267975.8865,2005,"Orlando-Kissimmee, FL",28.573131,-81.379238
+Panama City,FL,860,519978.3333,2005,"Panama City-Lynn Haven, FL",30.188485,-85.770691
+Port St. Lucie,FL,930,224540,2005,"Port St. Lucie-Fort Pierce, FL",27.86748,-81.577491
+Atlanta-Sandy Springs-Roswell,GA,75960,385125.7246,2005,"Atlanta-Sandy Springs-Marietta, GA",33.796385,-84.495858
+Boise City,ID,7090,169713.8889,2005,"Boise City-Nampa, ID",43.586632,-116.183698
+Chicago-Naperville-Elgin,IL,99530,299085.0473,2005,"Chicago-Naperville-Joliet, IL",41.52503,-88.08173
+Indianapolis-Carmel-Anderson,IN,17130,138458.6158,2005,"Indianapolis-Carmel, IN",39.79774,-86.167926
+Lafayette-West Lafayette,IN,1400,118702.0833,2005,"Lafayette, IN",40.417778,-86.889633
+New Orleans-Metairie,LA,8140,275746.5686,2005,"New Orleans-Metairie-Kenner, LA",29.975154,-90.06557
+Baltimore-Columbia-Towson,MD,39390,238146.0069,2005,"Baltimore-Towson, MD",39.299351,-76.722079
+Portland-South Portland,ME,3700,255621.4286,2005,"Portland-South Portland-Biddeford, ME",43.656414,-70.251584
+Detroit-Warren-Dearborn,MI,20380,192005.1282,2005,"Detroit-Livonia-Dearborn, MI",42.32226,-83.17631
+Gulfport-Biloxi-Pascagoula,MS,1060,132654.1667,2005,"Gulfport-Biloxi, MS",30.382966,-89.102426
+Durham-Chapel Hill,NC,14770,169973.8636,2005,"Durham, NC",35.850295,-79.023205
+Raleigh,NC,19710,217039.4737,2005,"Raleigh-Cary, NC",35.79154,-78.78112
+Manchester-Nashua,NH,2420,231598.6842,2005,"Manchester, NH",42.988483,-71.462111
+Trenton,NJ,8300,266247.619,2005,"Trenton-Ewing, NJ",40.269769,-74.712684
+Vineland-Bridgeton,NJ,310,109650,2005,"Vineland-Millville-Bridgeton, NJ",39.433288,-75.017849
+Las Vegas-Henderson-Paradise,NV,7240,326616.0985,2005,"Las Vegas-Paradise, NV",36.146278,-115.155681
+Reno,NV,2810,318919.1667,2005,"Reno-Sparks, NV",39.53491,-119.75269
+Buffalo-Cheektowaga-Niagara Falls,NY,9890,108050,2005,"Buffalo-Niagara Falls, NY",42.537897,-76.649045
+Cleveland-Elyria,OH,21400,222258.9744,2005,"Cleveland-Elyria-Mentor, OH",41.490728,-81.725831
+Bend-Redmond,OR,730,282086.8056,2005,"Bend, OR",44.082037,-121.227125
+Eugene,OR,2140,221913.0208,2005,"Eugene-Springfield, OR",44.04624,-123.02203
+Philadelphia-Camden-Wilmington,PA,52960,210588.5081,2005,"Philadelphia, PA",40.001811,-75.11787
+Scranton--Wilkes-Barre--Hazleton,PA,2520,102546.4286,2005,"Scranton--Wilkes-Barre, PA",41.395082,-75.640468
+Nashville-Davidson--Murfreesboro--Franklin,TN,13560,183296.5556,2005,"Nashville-Davidson--Murfreesboro, TN",36.166001,-86.777305
+Dallas-Fort Worth-Arlington,TX,74120,155540.3846,2005,"Dallas-Plano-Irving, TX",32.81402,-96.94889
+Houston-The Woodlands-Sugar Land,TX,48980,160957.5,2005,"Houston-Sugar Land-Baytown, TX",29.7355,-94.97743
+San Antonio-New Braunfels,TX,17720,128989.6799,2005,"San Antonio, TX",29.468413,-98.528889
+Seattle-Tacoma-Bellevue,WA,69510,364042.9487,2005,"Seattle-Bellevue-Everett, WA",47.97898,-122.20208
+Spokane-Spokane Valley,WA,2970,138184.7222,2005,"Spokane, WA",47.65878,-117.426047
+Little Rock-North Little Rock-Conway,AR,6280,159018.2292,2006,"Little Rock-North Little Rock, AR",34.708985,-92.235641
+Sacramento--Roseville--Arden-Arcade,CA,26090,415473.6742,2006,"Sacramento--Arden-Arcade--Roseville, CA",38.589407,-121.486546
+San Diego-Carlsbad,CA,36390,587134.944,2006,"San Diego-Carlsbad-San Marcos, CA",40.946492,-124.114567
+San Francisco-Oakland-Hayward,CA,46350,819213.8989,2006,"San Francisco-San Mateo-Redwood City, CA",37.736112,-122.469886
+Stockton-Lodi,CA,1520,388644.9275,2006,"Stockton, CA",37.9577,-121.29078
+Denver-Aurora-Lakewood,CO,47500,249849.3222,2006,"Denver-Aurora, CO",39.72943,-104.83192
+Fort Collins,CO,3020,241287.6263,2006,"Fort Collins-Loveland, CO",40.615974,-105.069249
+New Haven-Milford,CT,4950,199275,2006,"New Haven, CT",41.365709,-72.927507
+Miami-Fort Lauderdale-West Palm Beach,FL,14790,391834.535,2006,"Miami-Miami Beach-Kendall, FL",25.67927,-80.31727
+Naples-Immokalee-Marco Island,FL,1060,1598625,2006,"Naples-Marco Island, FL",26.839229,-82.296985
+Orlando-Kissimmee-Sanford,FL,22510,325863.2979,2006,"Orlando-Kissimmee, FL",28.573131,-81.379238
+Panama City,FL,1040,561445,2006,"Panama City-Lynn Haven, FL",30.188485,-85.770691
+Port St. Lucie,FL,1000,245408.3333,2006,"Port St. Lucie-Fort Pierce, FL",27.86748,-81.577491
+Atlanta-Sandy Springs-Roswell,GA,73240,409111.715,2006,"Atlanta-Sandy Springs-Marietta, GA",33.796385,-84.495858
+Boise City,ID,6970,218745.0617,2006,"Boise City-Nampa, ID",43.586632,-116.183698
+Chicago-Naperville-Elgin,IL,102380,320128.7825,2006,"Chicago-Naperville-Joliet, IL",41.52503,-88.08173
+Indianapolis-Carmel-Anderson,IN,18800,140937.3611,2006,"Indianapolis-Carmel, IN",39.79774,-86.167926
+Lafayette-West Lafayette,IN,1450,125057.2917,2006,"Lafayette, IN",40.417778,-86.889633
+New Orleans-Metairie,LA,6610,295639.7059,2006,"New Orleans-Metairie-Kenner, LA",29.975154,-90.06557
+Baltimore-Columbia-Towson,MD,41550,273201.2153,2006,"Baltimore-Towson, MD",39.299351,-76.722079
+Portland-South Portland,ME,3870,258973.8095,2006,"Portland-South Portland-Biddeford, ME",43.656414,-70.251584
+Detroit-Warren-Dearborn,MI,23740,188955.1282,2006,"Detroit-Livonia-Dearborn, MI",42.32226,-83.17631
+Gulfport-Biloxi-Pascagoula,MS,1170,141354.1667,2006,"Gulfport-Biloxi, MS",30.382966,-89.102426
+Durham-Chapel Hill,NC,15350,177008.7121,2006,"Durham, NC",35.850295,-79.023205
+Raleigh,NC,21250,235591.6667,2006,"Raleigh-Cary, NC",35.79154,-78.78112
+Manchester-Nashua,NH,2580,231630.7018,2006,"Manchester, NH",42.988483,-71.462111
+Trenton,NJ,8700,291311.9048,2006,"Trenton-Ewing, NJ",40.269769,-74.712684
+Vineland-Bridgeton,NJ,320,137583.3333,2006,"Vineland-Millville-Bridgeton, NJ",39.433288,-75.017849
+Las Vegas-Henderson-Paradise,NV,8620,340684.6591,2006,"Las Vegas-Paradise, NV",36.146278,-115.155681
+Reno,NV,3180,327469.1667,2006,"Reno-Sparks, NV",39.53491,-119.75269
+Buffalo-Cheektowaga-Niagara Falls,NY,9120,116914.2157,2006,"Buffalo-Niagara Falls, NY",42.537897,-76.649045
+Cleveland-Elyria,OH,21870,221725.641,2006,"Cleveland-Elyria-Mentor, OH",41.490728,-81.725831
+Bend-Redmond,OR,680,379349.3056,2006,"Bend, OR",44.082037,-121.227125
+Eugene,OR,2230,262773.4375,2006,"Eugene-Springfield, OR",44.04624,-123.02203
+Philadelphia-Camden-Wilmington,PA,54940,227173.7333,2006,"Philadelphia, PA",40.001811,-75.11787
+Scranton--Wilkes-Barre--Hazleton,PA,2760,122426.1905,2006,"Scranton--Wilkes-Barre, PA",41.395082,-75.640468
+Nashville-Davidson--Murfreesboro--Franklin,TN,13540,202730.2222,2006,"Nashville-Davidson--Murfreesboro, TN",36.166001,-86.777305
+Dallas-Fort Worth-Arlington,TX,79510,159621.0256,2006,"Dallas-Plano-Irving, TX",32.81402,-96.94889
+Houston-The Woodlands-Sugar Land,TX,55680,164346.7708,2006,"Houston-Sugar Land-Baytown, TX",29.7355,-94.97743
+San Antonio-New Braunfels,TX,17720,136078.9735,2006,"San Antonio, TX",29.468413,-98.528889
+Olympia-Tumwater,WA,3790,250508.3333,2006,"Olympia, WA",46.984767,-122.869079
+Seattle-Tacoma-Bellevue,WA,73990,421513.6977,2006,"Seattle-Bellevue-Everett, WA",47.97898,-122.20208
+Spokane-Spokane Valley,WA,3180,161982.2917,2006,"Spokane, WA",47.65878,-117.426047
+Little Rock-North Little Rock-Conway,AR,8180,164584.375,2007,"Little Rock-North Little Rock, AR",34.708985,-92.235641
+Sacramento--Roseville--Arden-Arcade,CA,26560,366986.3005,2007,"Sacramento--Arden-Arcade--Roseville, CA",38.589407,-121.486546
+San Diego-Carlsbad,CA,36340,550880.4622,2007,"San Diego-Carlsbad-San Marcos, CA",40.946492,-124.114567
+San Francisco-Oakland-Hayward,CA,45940,816861.3418,2007,"San Francisco-San Mateo-Redwood City, CA",37.736112,-122.469886
+Stockton-Lodi,CA,1600,327296.3768,2007,"Stockton, CA",37.9577,-121.29078
+Denver-Aurora-Lakewood,CO,50140,248891.3876,2007,"Denver-Aurora, CO",39.72943,-104.83192
+Fort Collins,CO,3500,244030.5556,2007,"Fort Collins-Loveland, CO",40.615974,-105.069249
+New Haven-Milford,CT,5170,199719.0972,2007,"New Haven, CT",41.365709,-72.927507
+Lakeland-Winter Haven,FL,2410,165563.8889,2007,"Lakeland, FL",28.035908,-81.899669
+Miami-Fort Lauderdale-West Palm Beach,FL,15360,361858.4896,2007,"Miami-Miami Beach-Kendall, FL",25.67927,-80.31727
+Naples-Immokalee-Marco Island,FL,840,1405910,2007,"Naples-Marco Island, FL",26.839229,-82.296985
+Orlando-Kissimmee-Sanford,FL,23730,319546.9858,2007,"Orlando-Kissimmee, FL",28.573131,-81.379238
+Panama City,FL,730,579391.6667,2007,"Panama City-Lynn Haven, FL",30.188485,-85.770691
+Port St. Lucie,FL,930,216171.6667,2007,"Port St. Lucie-Fort Pierce, FL",27.86748,-81.577491
+Atlanta-Sandy Springs-Roswell,GA,71830,412590.8213,2007,"Atlanta-Sandy Springs-Marietta, GA",33.796385,-84.495858
+Boise City,ID,7330,224811.1111,2007,"Boise City-Nampa, ID",43.586632,-116.183698
+Chicago-Naperville-Elgin,IL,106340,319259.1017,2007,"Chicago-Naperville-Joliet, IL",41.52503,-88.08173
+Indianapolis-Carmel-Anderson,IN,20220,142739.1667,2007,"Indianapolis-Carmel, IN",39.79774,-86.167926
+Lafayette-West Lafayette,IN,1460,128393.75,2007,"Lafayette, IN",40.417778,-86.889633
+New Orleans-Metairie,LA,6160,296840.1961,2007,"New Orleans-Metairie-Kenner, LA",29.975154,-90.06557
+Baltimore-Columbia-Towson,MD,42710,278231.25,2007,"Baltimore-Towson, MD",39.299351,-76.722079
+Portland-South Portland,ME,4230,244206.5476,2007,"Portland-South Portland-Biddeford, ME",43.656414,-70.251584
+Detroit-Warren-Dearborn,MI,22240,175282.0513,2007,"Detroit-Livonia-Dearborn, MI",42.32226,-83.17631
+Gulfport-Biloxi-Pascagoula,MS,1380,134891.6667,2007,"Gulfport-Biloxi, MS",30.382966,-89.102426
+Durham-Chapel Hill,NC,18860,181170.8333,2007,"Durham, NC",35.850295,-79.023205
+Raleigh,NC,20590,254851.7544,2007,"Raleigh-Cary, NC",35.79154,-78.78112
+Manchester-Nashua,NH,2870,223356.5789,2007,"Manchester, NH",42.988483,-71.462111
+Trenton,NJ,9050,286240.4762,2007,"Trenton-Ewing, NJ",40.269769,-74.712684
+Vineland-Bridgeton,NJ,250,147958.3333,2007,"Vineland-Millville-Bridgeton, NJ",39.433288,-75.017849
+Las Vegas-Henderson-Paradise,NV,8690,315010.6061,2007,"Las Vegas-Paradise, NV",36.146278,-115.155681
+Reno,NV,3060,296808.3333,2007,"Reno-Sparks, NV",39.53491,-119.75269
+Buffalo-Cheektowaga-Niagara Falls,NY,9450,125717.6471,2007,"Buffalo-Niagara Falls, NY",42.537897,-76.649045
+Cleveland-Elyria,OH,22620,214187.8205,2007,"Cleveland-Elyria-Mentor, OH",41.490728,-81.725831
+Bend-Redmond,OR,720,364687.5,2007,"Bend, OR",44.082037,-121.227125
+Eugene,OR,2510,271870.3125,2007,"Eugene-Springfield, OR",44.04624,-123.02203
+Philadelphia-Camden-Wilmington,PA,54650,231206.4,2007,"Philadelphia, PA",40.001811,-75.11787
+Scranton--Wilkes-Barre--Hazleton,PA,3590,133189.2857,2007,"Scranton--Wilkes-Barre, PA",41.395082,-75.640468
+Nashville-Davidson--Murfreesboro--Franklin,TN,14570,215926.1111,2007,"Nashville-Davidson--Murfreesboro, TN",36.166001,-86.777305
+Dallas-Fort Worth-Arlington,TX,86480,162865.7692,2007,"Dallas-Plano-Irving, TX",32.81402,-96.94889
+Houston-The Woodlands-Sugar Land,TX,61570,169474.5833,2007,"Houston-Sugar Land-Baytown, TX",29.7355,-94.97743
+San Antonio-New Braunfels,TX,16820,145991.3907,2007,"San Antonio, TX",29.468413,-98.528889
+Olympia-Tumwater,WA,4450,253046.6667,2007,"Olympia, WA",46.984767,-122.869079
+Seattle-Tacoma-Bellevue,WA,82140,447738.9339,2007,"Seattle-Bellevue-Everett, WA",47.97898,-122.20208
+Spokane-Spokane Valley,WA,3830,176611.4583,2007,"Spokane, WA",47.65878,-117.426047
+Little Rock-North Little Rock-Conway,AR,8740,165486.4583,2008,"Little Rock-North Little Rock, AR",34.708985,-92.235641
+Sacramento--Roseville--Arden-Arcade,CA,27160,300647.3485,2008,"Sacramento--Arden-Arcade--Roseville, CA",38.589407,-121.486546
+San Diego-Carlsbad,CA,36680,474128.1513,2008,"San Diego-Carlsbad-San Marcos, CA",40.946492,-124.114567
+San Francisco-Oakland-Hayward,CA,49650,751543.6522,2008,"San Francisco-San Mateo-Redwood City, CA",37.736112,-122.469886
+Stockton-Lodi,CA,1720,218992.3913,2008,"Stockton, CA",37.9577,-121.29078
+Denver-Aurora-Lakewood,CO,53470,237469.2185,2008,"Denver-Aurora, CO",39.72943,-104.83192
+Fort Collins,CO,3600,241406.5657,2008,"Fort Collins-Loveland, CO",40.615974,-105.069249
+New Haven-Milford,CT,5410,185799.3056,2008,"New Haven, CT",41.365709,-72.927507
+Lakeland-Winter Haven,FL,2370,147466.6667,2008,"Lakeland, FL",28.035908,-81.899669
+Miami-Fort Lauderdale-West Palm Beach,FL,17060,287310,2008,"Miami-Miami Beach-Kendall, FL",25.67927,-80.31727
+Naples-Immokalee-Marco Island,FL,1230,1166702.5,2008,"Naples-Marco Island, FL",26.839229,-82.296985
+Orlando-Kissimmee-Sanford,FL,24970,267290.4255,2008,"Orlando-Kissimmee, FL",28.573131,-81.379238
+Panama City,FL,1170,484801.6667,2008,"Panama City-Lynn Haven, FL",30.188485,-85.770691
+Port St. Lucie,FL,1090,161085,2008,"Port St. Lucie-Fort Pierce, FL",27.86748,-81.577491
+Atlanta-Sandy Springs-Roswell,GA,77030,400953.6232,2008,"Atlanta-Sandy Springs-Marietta, GA",33.796385,-84.495858
+Boise City,ID,6920,222813.2716,2008,"Boise City-Nampa, ID",43.586632,-116.183698
+Chicago-Naperville-Elgin,IL,106670,296999.4681,2008,"Chicago-Naperville-Joliet, IL",41.52503,-88.08173
+Indianapolis-Carmel-Anderson,IN,22240,140352.6389,2008,"Indianapolis-Carmel, IN",39.79774,-86.167926
+Lafayette-West Lafayette,IN,1400,124155.2083,2008,"Lafayette, IN",40.417778,-86.889633
+New Orleans-Metairie,LA,6020,291882.3529,2008,"New Orleans-Metairie-Kenner, LA",29.975154,-90.06557
+Baltimore-Columbia-Towson,MD,44020,263821.5278,2008,"Baltimore-Towson, MD",39.299351,-76.722079
+Portland-South Portland,ME,4290,234972.0238,2008,"Portland-South Portland-Biddeford, ME",43.656414,-70.251584
+Detroit-Warren-Dearborn,MI,19880,145062.8205,2008,"Detroit-Livonia-Dearborn, MI",42.32226,-83.17631
+Gulfport-Biloxi-Pascagoula,MS,1490,143854.1667,2008,"Gulfport-Biloxi, MS",30.382966,-89.102426
+Durham-Chapel Hill,NC,20470,182600.7576,2008,"Durham, NC",35.850295,-79.023205
+Raleigh,NC,21450,257833.3333,2008,"Raleigh-Cary, NC",35.79154,-78.78112
+Manchester-Nashua,NH,2960,206635.9649,2008,"Manchester, NH",42.988483,-71.462111
+Trenton,NJ,11120,270807.1429,2008,"Trenton-Ewing, NJ",40.269769,-74.712684
+Vineland-Bridgeton,NJ,260,139800,2008,"Vineland-Millville-Bridgeton, NJ",39.433288,-75.017849
+Las Vegas-Henderson-Paradise,NV,9600,249329.3561,2008,"Las Vegas-Paradise, NV",36.146278,-115.155681
+Reno,NV,3240,247537.5,2008,"Reno-Sparks, NV",39.53491,-119.75269
+Buffalo-Cheektowaga-Niagara Falls,NY,9580,127736.7647,2008,"Buffalo-Niagara Falls, NY",42.537897,-76.649045
+Cleveland-Elyria,OH,22510,195350,2008,"Cleveland-Elyria-Mentor, OH",41.490728,-81.725831
+Bend-Redmond,OR,780,310875,2008,"Bend, OR",44.082037,-121.227125
+Eugene,OR,3170,264657.2917,2008,"Eugene-Springfield, OR",44.04624,-123.02203
+Philadelphia-Camden-Wilmington,PA,55750,224356.9333,2008,"Philadelphia, PA",40.001811,-75.11787
+Scranton--Wilkes-Barre--Hazleton,PA,3420,127933.3333,2008,"Scranton--Wilkes-Barre, PA",41.395082,-75.640468
+Nashville-Davidson--Murfreesboro--Franklin,TN,15860,213951.8889,2008,"Nashville-Davidson--Murfreesboro, TN",36.166001,-86.777305
+Dallas-Fort Worth-Arlington,TX,93300,158940.5556,2008,"Dallas-Plano-Irving, TX",32.81402,-96.94889
+Houston-The Woodlands-Sugar Land,TX,64700,166916.4583,2008,"Houston-Sugar Land-Baytown, TX",29.7355,-94.97743
+San Antonio-New Braunfels,TX,18310,145533.4989,2008,"San Antonio, TX",29.468413,-98.528889
+Olympia-Tumwater,WA,4210,249430,2008,"Olympia, WA",46.984767,-122.869079
+Seattle-Tacoma-Bellevue,WA,84810,423537.9892,2008,"Seattle-Bellevue-Everett, WA",47.97898,-122.20208
+Spokane-Spokane Valley,WA,3920,173926.0417,2008,"Spokane, WA",47.65878,-117.426047
+Sacramento--Roseville--Arden-Arcade,CA,27340,265345.7071,2009,"Sacramento--Arden-Arcade--Roseville, CA",38.589407,-121.486546
+San Diego-Carlsbad,CA,37740,422718.6275,2009,"San Diego-Carlsbad-San Marcos, CA",40.946492,-124.114567
+San Francisco-Oakland-Hayward,CA,51420,681089.6209,2009,"San Francisco-San Mateo-Redwood City, CA",37.736112,-122.469886
+Stockton-Lodi,CA,1750,165545.6522,2009,"Stockton, CA",37.9577,-121.29078
+Denver-Aurora-Lakewood,CO,54700,229780.6619,2009,"Denver-Aurora, CO",39.72943,-104.83192
+Fort Collins,CO,3810,241292.1717,2009,"Fort Collins-Loveland, CO",40.615974,-105.069249
+New Haven-Milford,CT,4800,171742.3611,2009,"New Haven, CT",41.365709,-72.927507
+Miami-Fort Lauderdale-West Palm Beach,FL,16510,219253.9063,2009,"Miami-Miami Beach-Kendall, FL",25.67927,-80.31727
+Naples-Immokalee-Marco Island,FL,1080,1020031.667,2009,"Naples-Marco Island, FL",26.839229,-82.296985
+Orlando-Kissimmee-Sanford,FL,25400,210042.5532,2009,"Orlando-Kissimmee, FL",28.573131,-81.379238
+Panama City,FL,1090,432333.3333,2009,"Panama City-Lynn Haven, FL",30.188485,-85.770691
+Atlanta-Sandy Springs-Roswell,GA,77020,373139.1304,2009,"Atlanta-Sandy Springs-Marietta, GA",33.796385,-84.495858
+Boise City,ID,7580,201279.9383,2009,"Boise City-Nampa, ID",43.586632,-116.183698
+Chicago-Naperville-Elgin,IL,103930,261794.6809,2009,"Chicago-Naperville-Joliet, IL",41.52503,-88.08173
+Indianapolis-Carmel-Anderson,IN,23030,129728.8889,2009,"Indianapolis-Carmel, IN",39.79774,-86.167926
+Lafayette-West Lafayette,IN,1400,126807.2917,2009,"Lafayette, IN",40.417778,-86.889633
+New Orleans-Metairie,LA,5420,284318.6275,2009,"New Orleans-Metairie-Kenner, LA",29.975154,-90.06557
+Baltimore-Columbia-Towson,MD,43960,241075.1736,2009,"Baltimore-Towson, MD",39.299351,-76.722079
+Portland-South Portland,ME,4700,228650.5952,2009,"Portland-South Portland-Biddeford, ME",43.656414,-70.251584
+Detroit-Warren-Dearborn,MI,16450,109812.1795,2009,"Detroit-Livonia-Dearborn, MI",42.32226,-83.17631
+Gulfport-Biloxi-Pascagoula,MS,1360,143645.8333,2009,"Gulfport-Biloxi, MS",30.382966,-89.102426
+Durham-Chapel Hill,NC,20390,185116.2879,2009,"Durham, NC",35.850295,-79.023205
+Raleigh,NC,21800,252114.0351,2009,"Raleigh-Cary, NC",35.79154,-78.78112
+Manchester-Nashua,NH,2830,191089.9123,2009,"Manchester, NH",42.988483,-71.462111
+Trenton,NJ,11800,248439.2857,2009,"Trenton-Ewing, NJ",40.269769,-74.712684
+Vineland-Bridgeton,NJ,360,134225,2009,"Vineland-Millville-Bridgeton, NJ",39.433288,-75.017849
+Las Vegas-Henderson-Paradise,NV,9420,183853.9773,2009,"Las Vegas-Paradise, NV",36.146278,-115.155681
+Reno,NV,3370,192370.8333,2009,"Reno-Sparks, NV",39.53491,-119.75269
+Buffalo-Cheektowaga-Niagara Falls,NY,11280,129316.6667,2009,"Buffalo-Niagara Falls, NY",42.537897,-76.649045
+Cleveland-Elyria,OH,22960,184292.3077,2009,"Cleveland-Elyria-Mentor, OH",41.490728,-81.725831
+Bend-Redmond,OR,820,250018.0556,2009,"Bend, OR",44.082037,-121.227125
+Eugene,OR,3020,247763.5417,2009,"Eugene-Springfield, OR",44.04624,-123.02203
+Philadelphia-Camden-Wilmington,PA,56620,217100.4,2009,"Philadelphia, PA",40.001811,-75.11787
+Scranton--Wilkes-Barre--Hazleton,PA,3730,121283.3333,2009,"Scranton--Wilkes-Barre, PA",41.395082,-75.640468
+Charleston-North Charleston,SC,4790,431695.3704,2009,"Charleston-North Charleston-Summerville, SC",32.776671,-79.977282
+Dallas-Fort Worth-Arlington,TX,88920,155690.6838,2009,"Dallas-Plano-Irving, TX",32.81402,-96.94889
+Houston-The Woodlands-Sugar Land,TX,62320,163705,2009,"Houston-Sugar Land-Baytown, TX",29.7355,-94.97743
+San Antonio-New Braunfels,TX,18830,140379.4702,2009,"San Antonio, TX",29.468413,-98.528889
+Olympia-Tumwater,WA,4120,235343.3333,2009,"Olympia, WA",46.984767,-122.869079
+Seattle-Tacoma-Bellevue,WA,89710,376790.4858,2009,"Seattle-Bellevue-Everett, WA",47.97898,-122.20208
+Spokane-Spokane Valley,WA,3660,165902.0833,2009,"Spokane, WA",47.65878,-117.426047
+Sacramento--Roseville--Arden-Arcade,CA,29100,249777.7778,2010,"Sacramento--Arden-Arcade--Roseville, CA",38.589407,-121.486546
+San Diego-Carlsbad,CA,38590,420471.875,2010,"San Diego-Carlsbad-San Marcos, CA",40.946492,-124.114567
+San Francisco-Oakland-Hayward,CA,50520,669960.6822,2010,"San Francisco-San Mateo-Redwood City, CA",37.736112,-122.469886
+Stockton-Lodi,CA,1690,154765.6028,2010,"Stockton, CA",37.9577,-121.29078
+Denver-Aurora-Lakewood,CO,54320,226720.8433,2010,"Denver-Aurora, CO",39.72943,-104.83192
+Fort Collins,CO,4150,242686.6162,2010,"Fort Collins-Loveland, CO",40.615974,-105.069249
+New Haven-Milford,CT,4770,163290.9722,2010,"New Haven, CT",41.365709,-72.927507
+Miami-Fort Lauderdale-West Palm Beach,FL,17250,198094.7396,2010,"Miami-Miami Beach-Kendall, FL",25.67927,-80.31727
+Naples-Immokalee-Marco Island,FL,940,997017.5,2010,"Naples-Marco Island, FL",26.839229,-82.296985
+North Port-Sarasota-Bradenton,FL,2790,208340.8497,2010,"North Port-Bradenton-Sarasota, FL",27.074755,-82.175602
+Orlando-Kissimmee-Sanford,FL,24500,186664.3617,2010,"Orlando-Kissimmee, FL",28.573131,-81.379238
+Panama City,FL,1220,360696.6667,2010,"Panama City-Lynn Haven, FL",30.188485,-85.770691
+Atlanta-Sandy Springs-Roswell,GA,78420,351557.6087,2010,"Atlanta-Sandy Springs-Marietta, GA",33.796385,-84.495858
+Boise City,ID,8580,180175,2010,"Boise City-Nampa, ID",43.586632,-116.183698
+Chicago-Naperville-Elgin,IL,92330,243983.3924,2010,"Chicago-Naperville-Joliet, IL",41.52503,-88.08173
+Indianapolis-Carmel-Anderson,IN,23380,125333.75,2010,"Indianapolis-Carmel, IN",39.79774,-86.167926
+Lafayette-West Lafayette,IN,1380,124593.75,2010,"Lafayette, IN",40.417778,-86.889633
+New Orleans-Metairie,LA,6330,283687.7451,2010,"New Orleans-Metairie-Kenner, LA",29.975154,-90.06557
+Baltimore-Columbia-Towson,MD,44650,224080.5842,2010,"Baltimore-Towson, MD",39.299351,-76.722079
+Portland-South Portland,ME,4860,228039.2857,2010,"Portland-South Portland-Biddeford, ME",43.656414,-70.251584
+Detroit-Warren-Dearborn,MI,15580,101167.9487,2010,"Detroit-Livonia-Dearborn, MI",42.32226,-83.17631
+Gulfport-Biloxi-Pascagoula,MS,1240,144425,2010,"Gulfport-Biloxi, MS",30.382966,-89.102426
+Durham-Chapel Hill,NC,18760,184860.2273,2010,"Durham, NC",35.850295,-79.023205
+Raleigh,NC,23310,245147.807,2010,"Raleigh-Cary, NC",35.79154,-78.78112
+Manchester-Nashua,NH,2830,186746.0526,2010,"Manchester, NH",42.988483,-71.462111
+Trenton,NJ,11550,237905.9524,2010,"Trenton-Ewing, NJ",40.269769,-74.712684
+Vineland-Bridgeton,NJ,370,136450,2010,"Vineland-Millville-Bridgeton, NJ",39.433288,-75.017849
+Las Vegas-Henderson-Paradise,NV,9600,159445.4545,2010,"Las Vegas-Paradise, NV",36.146278,-115.155681
+Reno,NV,3200,168838.3333,2010,"Reno-Sparks, NV",39.53491,-119.75269
+Buffalo-Cheektowaga-Niagara Falls,NY,11460,133947.0588,2010,"Buffalo-Niagara Falls, NY",42.537897,-76.649045
+Cleveland-Elyria,OH,22150,178230.2469,2010,"Cleveland-Elyria-Mentor, OH",41.490728,-81.725831
+Bend-Redmond,OR,800,220858.3333,2010,"Bend, OR",44.082037,-121.227125
+Eugene,OR,3140,237736.4583,2010,"Eugene-Springfield, OR",44.04624,-123.02203
+Philadelphia-Camden-Wilmington,PA,55530,212496.9333,2010,"Philadelphia, PA",40.001811,-75.11787
+Scranton--Wilkes-Barre--Hazleton,PA,3560,116205.9524,2010,"Scranton--Wilkes-Barre, PA",41.395082,-75.640468
+Charleston-North Charleston,SC,5130,405438.8889,2010,"Charleston-North Charleston-Summerville, SC",32.776671,-79.977282
+Dallas-Fort Worth-Arlington,TX,83880,154702.8559,2010,"Dallas-Plano-Irving, TX",32.81402,-96.94889
+Houston-The Woodlands-Sugar Land,TX,61690,160690.4167,2010,"Houston-Sugar Land-Baytown, TX",29.7355,-94.97743
+San Antonio-New Braunfels,TX,21240,139783.6093,2010,"San Antonio, TX",29.468413,-98.528889
+Olympia-Tumwater,WA,4280,222708.3333,2010,"Olympia, WA",46.984767,-122.869079
+Seattle-Tacoma-Bellevue,WA,86050,352791.363,2010,"Seattle-Bellevue-Everett, WA",47.97898,-122.20208
+Spokane-Spokane Valley,WA,3620,158146.5278,2010,"Spokane, WA",47.65878,-117.426047
+Phoenix-Mesa-Scottsdale,AZ,51630,170414.9904,2011,"Phoenix-Mesa-Glendale, AZ",33.53865,-112.18599
+Bakersfield,CA,3660,179765.6863,2011,"Bakersfield-Delano, CA",35.448527,-119.026995
+Sacramento--Roseville--Arden-Arcade,CA,29280,224665.4938,2011,"Sacramento--Arden-Arcade--Roseville, CA",38.589407,-121.486546
+San Diego-Carlsbad,CA,40240,395459.3664,2011,"San Diego-Carlsbad-San Marcos, CA",40.946492,-124.114567
+San Francisco-Oakland-Hayward,CA,53160,631452.3214,2011,"San Francisco-San Mateo-Redwood City, CA",37.736112,-122.469886
+Stockton-Lodi,CA,1990,143429.8611,2011,"Stockton, CA",37.9577,-121.29078
+Denver-Aurora-Lakewood,CO,54680,218331.9048,2011,"Denver-Aurora-Broomfield, CO",39.92054,-105.08665
+Fort Collins,CO,4180,242080.5556,2011,"Fort Collins-Loveland, CO",40.615974,-105.069249
+New Haven-Milford,CT,4610,148714.5833,2011,"New Haven, CT",41.365709,-72.927507
+Miami-Fort Lauderdale-West Palm Beach,FL,17180,190154.4513,2011,"Miami-Miami Beach-Kendall, FL",25.67927,-80.31727
+Naples-Immokalee-Marco Island,FL,930,986477.5,2011,"Naples-Marco Island, FL",26.839229,-82.296985
+North Port-Sarasota-Bradenton,FL,3090,192978.2051,2011,"North Port-Bradenton-Sarasota, FL",27.074755,-82.175602
+Panama City,FL,800,343441.6667,2011,"Panama City-Lynn Haven-Panama City Beach, FL",30.188485,-85.770691
+Atlanta-Sandy Springs-Roswell,GA,80740,327908.0918,2011,"Atlanta-Sandy Springs-Marietta, GA",33.796385,-84.495858
+Boise City,ID,8250,163565.7407,2011,"Boise City-Nampa, ID",43.586632,-116.183698
+Chicago-Naperville-Elgin,IL,93430,222511.643,2011,"Chicago-Joliet-Naperville, IL",41.78586,-88.14729
+Indianapolis-Carmel-Anderson,IN,23980,121261.5278,2011,"Indianapolis-Carmel, IN",39.79774,-86.167926
+Lafayette-West Lafayette,IN,1170,120496.875,2011,"Lafayette, IN",40.417778,-86.889633
+New Orleans-Metairie,LA,6420,281982.3529,2011,"New Orleans-Metairie-Kenner, LA",29.975154,-90.06557
+Baltimore-Columbia-Towson,MD,48110,199010.3741,2011,"Baltimore-Towson, MD",39.299351,-76.722079
+Portland-South Portland,ME,4500,223252.381,2011,"Portland-South Portland-Biddeford, ME",43.656414,-70.251584
+Detroit-Warren-Dearborn,MI,16400,94050.64103,2011,"Detroit-Livonia-Dearborn, MI",42.32226,-83.17631
+Gulfport-Biloxi-Pascagoula,MS,1270,142866.6667,2011,"Gulfport-Biloxi, MS",30.382966,-89.102426
+Raleigh,NC,22880,231504.386,2011,"Raleigh-Cary, NC",35.79154,-78.78112
+Manchester-Nashua,NH,2980,173600.4386,2011,"Manchester, NH",42.988483,-71.462111
+Trenton,NJ,10070,223063.0952,2011,"Trenton-Ewing, NJ",40.269769,-74.712684
+Vineland-Bridgeton,NJ,340,113025,2011,"Vineland-Millville-Bridgeton, NJ",39.433288,-75.017849
+Las Vegas-Henderson-Paradise,NV,10190,141909.2803,2011,"Las Vegas-Paradise, NV",36.146278,-115.155681
+Reno,NV,3460,147452.5,2011,"Reno-Sparks, NV",39.53491,-119.75269
+Buffalo-Cheektowaga-Niagara Falls,NY,12440,138796.0784,2011,"Buffalo-Niagara Falls, NY",42.537897,-76.649045
+Cleveland-Elyria,OH,23790,162465.4762,2011,"Cleveland-Elyria-Mentor, OH",41.490728,-81.725831
+Bend-Redmond,OR,930,213736.8056,2011,"Bend, OR",44.082037,-121.227125
+Eugene,OR,3310,215815.625,2011,"Eugene-Springfield, OR",44.04624,-123.02203
+Philadelphia-Camden-Wilmington,PA,56350,200313.6667,2011,"Philadelphia, PA",40.001811,-75.11787
+Scranton--Wilkes-Barre--Hazleton,PA,3500,114288.0952,2011,"Scranton--Wilkes-Barre, PA",41.395082,-75.640468
+Charleston-North Charleston,SC,6060,379412.037,2011,"Charleston-North Charleston-Summerville, SC",32.776671,-79.977282
+Austin-Round Rock,TX,46170,212893.5393,2011,"Austin-Round Rock-San Marcos, TX",30.280092,-96.35698
+Dallas-Fort Worth-Arlington,TX,87960,150448.767,2011,"Dallas-Plano-Irving, TX",32.81402,-96.94889
+Houston-The Woodlands-Sugar Land,TX,64920,157572.2917,2011,"Houston-Sugar Land-Baytown, TX",29.7355,-94.97743
+Olympia-Tumwater,WA,4370,204640,2011,"Olympia, WA",46.984767,-122.869079
+Seattle-Tacoma-Bellevue,WA,95880,324829.3185,2011,"Seattle-Bellevue-Everett, WA",47.97898,-122.20208
+Spokane-Spokane Valley,WA,4310,145146.875,2011,"Spokane, WA",47.65878,-117.426047
+Phoenix-Mesa-Scottsdale,AZ,56250,187689.7989,2012,"Phoenix-Mesa-Glendale, AZ",33.53865,-112.18599
+Bakersfield,CA,4410,188901.634,2012,"Bakersfield-Delano, CA",35.448527,-119.026995
+Sacramento--Roseville--Arden-Arcade,CA,30840,227221.9975,2012,"Sacramento--Arden-Arcade--Roseville, CA",38.589407,-121.486546
+San Diego-Carlsbad,CA,42600,398228.9256,2012,"San Diego-Carlsbad-San Marcos, CA",40.946492,-124.114567
+San Francisco-Oakland-Hayward,CA,63470,665079.3961,2012,"San Francisco-San Mateo-Redwood City, CA",37.736112,-122.469886
+Stockton-Lodi,CA,1780,145669.7917,2012,"Stockton, CA",37.9577,-121.29078
+Denver-Aurora-Lakewood,CO,56030,225653.1991,2012,"Denver-Aurora-Broomfield, CO",39.92054,-105.08665
+Fort Collins,CO,5100,248416.1616,2012,"Fort Collins-Loveland, CO",40.615974,-105.069249
+New Haven-Milford,CT,4860,138208.6806,2012,"New Haven, CT",41.365709,-72.927507
+Miami-Fort Lauderdale-West Palm Beach,FL,17170,196284.3527,2012,"Miami-Miami Beach-Kendall, FL",25.67927,-80.31727
+Naples-Immokalee-Marco Island,FL,1030,1043906.667,2012,"Naples-Marco Island, FL",26.839229,-82.296985
+North Port-Sarasota-Bradenton,FL,3180,196197.7564,2012,"North Port-Bradenton-Sarasota, FL",27.074755,-82.175602
+Panama City,FL,750,362438.3333,2012,"Panama City-Lynn Haven-Panama City Beach, FL",30.188485,-85.770691
+Atlanta-Sandy Springs-Roswell,GA,84220,324403.744,2012,"Atlanta-Sandy Springs-Marietta, GA",33.796385,-84.495858
+Boise City,ID,7890,163166.6667,2012,"Boise City-Nampa, ID",43.586632,-116.183698
+Chicago-Naperville-Elgin,IL,106420,213467.8487,2012,"Chicago-Joliet-Naperville, IL",41.78586,-88.14729
+Indianapolis-Carmel-Anderson,IN,24870,118391.9444,2012,"Indianapolis-Carmel, IN",39.79774,-86.167926
+Lafayette-West Lafayette,IN,1080,120322.9167,2012,"Lafayette, IN",40.417778,-86.889633
+New Orleans-Metairie,LA,7170,283248.0392,2012,"New Orleans-Metairie-Kenner, LA",29.975154,-90.06557
+Baltimore-Columbia-Towson,MD,50650,196027.1044,2012,"Baltimore-Towson, MD",39.299351,-76.722079
+Portland-South Portland,ME,4800,223670.2381,2012,"Portland-South Portland-Biddeford, ME",43.656414,-70.251584
+Detroit-Warren-Dearborn,MI,20060,95608.64198,2012,"Detroit-Livonia-Dearborn, MI",42.32226,-83.17631
+Gulfport-Biloxi-Pascagoula,MS,1300,135929.1667,2012,"Gulfport-Biloxi, MS",30.382966,-89.102426
+Raleigh,NC,26350,231262.7193,2012,"Raleigh-Cary, NC",35.79154,-78.78112
+Manchester-Nashua,NH,3060,167047.807,2012,"Manchester, NH",42.988483,-71.462111
+Trenton,NJ,10600,211972.619,2012,"Trenton-Ewing, NJ",40.269769,-74.712684
+Vineland-Bridgeton,NJ,290,112475,2012,"Vineland-Millville-Bridgeton, NJ",39.433288,-75.017849
+Las Vegas-Henderson-Paradise,NV,10480,141734.4569,2012,"Las Vegas-Paradise, NV",36.146278,-115.155681
+Reno,NV,3310,146120.8333,2012,"Reno-Sparks, NV",39.53491,-119.75269
+Buffalo-Cheektowaga-Niagara Falls,NY,13220,140855.3922,2012,"Buffalo-Niagara Falls, NY",42.537897,-76.649045
+Cleveland-Elyria,OH,27530,159056.5476,2012,"Cleveland-Elyria-Mentor, OH",41.490728,-81.725831
+Bend-Redmond,OR,960,225518.75,2012,"Bend, OR",44.082037,-121.227125
+Eugene,OR,3380,210682.2917,2012,"Eugene-Springfield, OR",44.04624,-123.02203
+Philadelphia-Camden-Wilmington,PA,59180,195418.8667,2012,"Philadelphia, PA",40.001811,-75.11787
+Scranton--Wilkes-Barre--Hazleton,PA,3490,111565.4762,2012,"Scranton--Wilkes-Barre, PA",41.395082,-75.640468
+Charleston-North Charleston,SC,6720,385669.4444,2012,"Charleston-North Charleston-Summerville, SC",32.776671,-79.977282
+Austin-Round Rock,TX,45910,215408.5206,2012,"Austin-Round Rock-San Marcos, TX",30.280092,-96.35698
+Dallas-Fort Worth-Arlington,TX,95060,150442.6446,2012,"Dallas-Plano-Irving, TX",32.81402,-96.94889
+Houston-The Woodlands-Sugar Land,TX,69940,157737.0833,2012,"Houston-Sugar Land-Baytown, TX",29.7355,-94.97743
+Olympia-Tumwater,WA,4520,199046.6667,2012,"Olympia, WA",46.984767,-122.869079
+Seattle-Tacoma-Bellevue,WA,106790,328608.5695,2012,"Seattle-Bellevue-Everett, WA",47.97898,-122.20208
+Spokane-Spokane Valley,WA,4320,142314.9306,2012,"Spokane, WA",47.65878,-117.426047
+Phoenix-Mesa-Scottsdale,AZ,59860,221772.9167,2013,"Phoenix-Mesa-Glendale, AZ",33.53865,-112.18599
+Bakersfield,CA,4530,222213.3987,2013,"Bakersfield-Delano, CA",35.448527,-119.026995
+Sacramento--Roseville--Arden-Arcade,CA,30000,275746.1768,2013,"Sacramento--Arden-Arcade--Roseville, CA",38.589407,-121.486546
+San Diego-Carlsbad,CA,45660,466896.5706,2013,"San Diego-Carlsbad-San Marcos, CA",40.946492,-124.114567
+San Francisco-Oakland-Hayward,CA,68810,786249.6795,2013,"San Francisco-San Mateo-Redwood City, CA",37.736112,-122.469886
+Stockton-Lodi,CA,1810,171501.7361,2013,"Stockton, CA",37.9577,-121.29078
+Denver-Aurora-Lakewood,CO,58310,249263.9544,2013,"Denver-Aurora-Broomfield, CO",39.92054,-105.08665
+Fort Collins,CO,5220,263386.6162,2013,"Fort Collins-Loveland, CO",40.615974,-105.069249
+New Haven-Milford,CT,4810,136772.2222,2013,"New Haven, CT",41.365709,-72.927507
+Miami-Fort Lauderdale-West Palm Beach,FL,16600,218970.01,2013,"Miami-Miami Beach-Kendall, FL",25.67927,-80.31727
+Naples-Immokalee-Marco Island,FL,1160,1114160.833,2013,"Naples-Marco Island, FL",26.839229,-82.296985
+North Port-Sarasota-Bradenton,FL,3390,218889.9371,2013,"North Port-Bradenton-Sarasota, FL",27.074755,-82.175602
+Panama City,FL,730,368505,2013,"Panama City-Lynn Haven-Panama City Beach, FL",30.188485,-85.770691
+Atlanta-Sandy Springs-Roswell,GA,92740,356978.9286,2013,"Atlanta-Sandy Springs-Marietta, GA",33.796385,-84.495858
+Boise City,ID,7660,182285.4938,2013,"Boise City-Nampa, ID",43.586632,-116.183698
+Chicago-Naperville-Elgin,IL,117020,231663.9671,2013,"Chicago-Joliet-Naperville, IL",41.78586,-88.14729
+Indianapolis-Carmel-Anderson,IN,26970,117818.3333,2013,"Indianapolis-Carmel, IN",39.79774,-86.167926
+Lafayette-West Lafayette,IN,1020,121264.5833,2013,"Lafayette, IN",40.417778,-86.889633
+New Orleans-Metairie,LA,6470,282596.5812,2013,"New Orleans-Metairie-Kenner, LA",29.975154,-90.06557
+Baltimore-Columbia-Towson,MD,55320,202641.9935,2013,"Baltimore-Towson, MD",39.299351,-76.722079
+Portland-South Portland,ME,5080,230651.1905,2013,"Portland-South Portland-Biddeford, ME",43.656414,-70.251584
+Detroit-Warren-Dearborn,MI,21240,106081.0345,2013,"Detroit-Livonia-Dearborn, MI",42.32226,-83.17631
+Gulfport-Biloxi-Pascagoula,MS,1300,128426.6667,2013,"Gulfport-Biloxi, MS",30.382966,-89.102426
+Raleigh,NC,28050,244214.0351,2013,"Raleigh-Cary, NC",35.79154,-78.78112
+Manchester-Nashua,NH,2990,174233.3333,2013,"Manchester, NH",42.988483,-71.462111
+Trenton,NJ,10910,210194.0476,2013,"Trenton-Ewing, NJ",40.269769,-74.712684
+Vineland-Bridgeton,NJ,340,109708.3333,2013,"Vineland-Millville-Bridgeton, NJ",39.433288,-75.017849
+Las Vegas-Henderson-Paradise,NV,11110,169742.3077,2013,"Las Vegas-Paradise, NV",36.146278,-115.155681
+Reno,NV,3350,175626.6667,2013,"Reno-Sparks, NV",39.53491,-119.75269
+Buffalo-Cheektowaga-Niagara Falls,NY,12580,145623.0392,2013,"Buffalo-Niagara Falls, NY",42.537897,-76.649045
+Phoenix-Mesa-Scottsdale,AZ,66260,238601.5625,2014,"Phoenix-Mesa-Glendale, AZ",33.53865,-112.18599
+Bakersfield,CA,4560,248259.4771,2014,"Bakersfield-Delano, CA",35.448527,-119.026995
+Sacramento--Roseville--Arden-Arcade,CA,30650,297515.7596,2014,"Sacramento--Arden-Arcade--Roseville, CA",38.589407,-121.486546
+San Diego-Carlsbad,CA,47430,510925.6831,2014,"San Diego-Carlsbad-San Marcos, CA",40.946492,-124.114567
+San Francisco-Oakland-Hayward,CA,73500,874297.8359,2014,"San Francisco-San Mateo-Redwood City, CA",37.736112,-122.469886
+Stockton-Lodi,CA,1790,201346.3333,2014,"Stockton, CA",37.9577,-121.29078
+Denver-Aurora-Lakewood,CO,61660,274420.6368,2014,"Denver-Aurora-Broomfield, CO",39.92054,-105.08665
+Fort Collins,CO,5590,284620.4545,2014,"Fort Collins-Loveland, CO",40.615974,-105.069249
+New Haven-Milford,CT,5230,133660.0694,2014,"New Haven, CT",41.365709,-72.927507
+Miami-Fort Lauderdale-West Palm Beach,FL,17590,248850.0975,2014,"Miami-Miami Beach-Kendall, FL",25.67927,-80.31727
+Naples-Immokalee-Marco Island,FL,1190,1240447.5,2014,"Naples-Marco Island, FL",26.839229,-82.296985
+North Port-Sarasota-Bradenton,FL,3490,243619.7531,2014,"North Port-Bradenton-Sarasota, FL",27.074755,-82.175602
+Panama City,FL,740,414575,2014,"Panama City-Lynn Haven-Panama City Beach, FL",30.188485,-85.770691
+Atlanta-Sandy Springs-Roswell,GA,97810,394342.723,2014,"Atlanta-Sandy Springs-Marietta, GA",33.796385,-84.495858
+Boise City,ID,8180,196345.3704,2014,"Boise City-Nampa, ID",43.586632,-116.183698
+Chicago-Naperville-Elgin,IL,125170,248495.1968,2014,"Chicago-Joliet-Naperville, IL",41.78586,-88.14729
+Indianapolis-Carmel-Anderson,IN,28370,124568.6111,2014,"Indianapolis-Carmel, IN",39.79774,-86.167926
+Lafayette-West Lafayette,IN,1270,124228.125,2014,"Lafayette, IN",40.417778,-86.889633
+New Orleans-Metairie,LA,6600,283479.845,2014,"New Orleans-Metairie-Kenner, LA",29.975154,-90.06557
+Baltimore-Columbia-Towson,MD,56910,209469.2063,2014,"Baltimore-Towson, MD",39.299351,-76.722079
+Portland-South Portland,ME,5500,239972.619,2014,"Portland-South Portland-Biddeford, ME",43.656414,-70.251584
+Detroit-Warren-Dearborn,MI,23460,102526.3158,2014,"Detroit-Livonia-Dearborn, MI",42.32226,-83.17631
+Gulfport-Biloxi-Pascagoula,MS,1290,120875,2014,"Gulfport-Biloxi, MS",30.382966,-89.102426
+Raleigh,NC,28510,259239.0351,2014,"Raleigh-Cary, NC",35.79154,-78.78112
+Manchester-Nashua,NH,2700,179378.9474,2014,"Manchester, NH",42.988483,-71.462111
+Trenton,NJ,12330,217276.1905,2014,"Trenton-Ewing, NJ",40.269769,-74.712684
+Vineland-Bridgeton,NJ,380,123758.3333,2014,"Vineland-Millville-Bridgeton, NJ",39.433288,-75.017849
+Las Vegas-Henderson-Paradise,NV,11370,195789.0071,2014,"Las Vegas-Paradise, NV",36.146278,-115.155681
+Reno,NV,3190,209024.1667,2014,"Reno-Sparks, NV",39.53491,-119.75269
+Buffalo-Cheektowaga-Niagara Falls,NY,13170,153871.5686,2014,"Buffalo-Niagara Falls, NY",42.537897,-76.649045
+Cleveland-Elyria,OH,27610,161729.4444,2014,"Cleveland-Elyria-Mentor, OH",41.490728,-81.725831
+Bend-Redmond,OR,1080,307654.8611,2014,"Bend, OR",44.082037,-121.227125
+Eugene,OR,3000,238647.3958,2014,"Eugene-Springfield, OR",44.04624,-123.02203
+Philadelphia-Camden-Wilmington,PA,65170,205038.0859,2014,"Philadelphia, PA",40.001811,-75.11787
+Scranton--Wilkes-Barre--Hazleton,PA,3690,106552.381,2014,"Scranton--Wilkes-Barre, PA",41.395082,-75.640468
+Charleston-North Charleston,SC,8460,433050,2014,"Charleston-North Charleston-Summerville, SC",32.776671,-79.977282
+Austin-Round Rock,TX,50920,250006.6479,2014,"Austin-Round Rock-San Marcos, TX",30.280092,-96.35698
+Dallas-Fort Worth-Arlington,TX,109260,165710.6293,2014,"Dallas-Plano-Irving, TX",32.81402,-96.94889
+Houston-The Woodlands-Sugar Land,TX,82490,182715.4397,2014,"Houston-Sugar Land-Baytown, TX",29.7355,-94.97743
+Olympia-Tumwater,WA,4530,215505,2014,"Olympia, WA",46.984767,-122.869079
+Seattle-Tacoma-Bellevue,WA,112180,401793.9907,2014,"Seattle-Bellevue-Everett, WA",47.97898,-122.20208
+Spokane-Spokane Valley,WA,3630,150913.8889,2014,"Spokane, WA",47.65878,-117.426047
+Los Angeles-Long Beach-Anaheim,CA,97010,738734.7053,2015,"Los Angeles-Long Beach-Glendale, CA",34.050272,-118.24334
+San Francisco-Oakland-Hayward,CA,80480,992546.1111,2015,"San Francisco-Redwood City-South San Francisco, CA",37.805344,-122.408162
+New Haven-Milford,CT,5370,133206.9444,2015,"New Haven, CT",41.365709,-72.927507
+Miami-Fort Lauderdale-West Palm Beach,FL,20390,271873.228,2015,"Miami-Miami Beach-Kendall, FL",25.67927,-80.31727
+Chicago-Naperville-Elgin,IL,121380,255825.6711,2015,"Chicago-Naperville-Arlington Heights, IL",42.08836,-87.98063
+Detroit-Warren-Dearborn,MI,21360,107997.0833,2015,"Detroit-Dearborn-Livonia, MI",42.36837,-83.35271
+Manchester-Nashua,NH,2900,187145.1754,2015,"Manchester, NH",42.988483,-71.462111
+Philadelphia-Camden-Wilmington,PA,24790,210380.1432,2015,"Philadelphia, PA",40.001811,-75.11787
+Dallas-Fort Worth-Arlington,TX,115920,179018.8776,2015,"Dallas-Plano-Irving, TX",32.81402,-96.94889
+Seattle-Tacoma-Bellevue,WA,116980,448699.3692,2015,"Seattle-Bellevue-Everett, WA",47.97898,-122.20208
+Los Angeles-Long Beach-Anaheim,CA,106620,795802.0325,2016,"Los Angeles-Long Beach-Glendale, CA",34.050272,-118.24334
+San Francisco-Oakland-Hayward,CA,89380,1063473.806,2016,"San Francisco-Redwood City-South San Francisco, CA",37.805344,-122.408162
+New Haven-Milford,CT,5900,136241.3194,2016,"New Haven, CT",41.365709,-72.927507
+Miami-Fort Lauderdale-West Palm Beach,FL,22090,297083.9559,2016,"Miami-Miami Beach-Kendall, FL",25.67927,-80.31727
+Chicago-Naperville-Elgin,IL,127940,269889.3736,2016,"Chicago-Naperville-Arlington Heights, IL",42.08836,-87.98063
+Detroit-Warren-Dearborn,MI,21400,117247.9167,2016,"Detroit-Dearborn-Livonia, MI",42.36837,-83.35271
+Manchester-Nashua,NH,3120,199524.1228,2016,"Manchester, NH",42.988483,-71.462111
+Philadelphia-Camden-Wilmington,PA,25010,221861.1328,2016,"Philadelphia, PA",40.001811,-75.11787
+Dallas-Fort Worth-Arlington,TX,117520,199297.4915,2016,"Dallas-Plano-Irving, TX",32.81402,-96.94889
+Seattle-Tacoma-Bellevue,WA,121370,515866.9323,2016,"Seattle-Bellevue-Everett, WA",47.97898,-122.20208
+Birmingham-Hoover,AL,8780,118708.3333,2001,"Birmingham, AL",33.520661,-86.80249
+Little Rock-North Little Rock-Conway,AR,4220,114476.6667,2001,"Little Rock-North Little Rock, AR",34.708985,-92.235641
+Phoenix-Mesa-Scottsdale,AZ,39650,168964.6435,2001,"Phoenix-Mesa, AZ",33.42227,-111.82264
+Chico,CA,460,127287.5,2001,"Chico-Paradise, CA",39.75961,-121.62192
+Los Angeles-Long Beach-Anaheim,CA,78420,345356.6511,2001,"Los Angeles-Long Beach, CA",34.047247,-118.246183
+Riverside-San Bernardino-Ontario,CA,8150,177131.9048,2001,"Riverside-San Bernardino, CA",34.033515,-117.502665
+Sacramento--Roseville--Arden-Arcade,CA,23580,214987.2137,2001,"Sacramento, CA",38.380456,-121.555406
+San Diego-Carlsbad,CA,34270,308787.7451,2001,"San Diego, CA",32.724103,-117.170912
+San Francisco-Oakland-Hayward,CA,51060,548305.2647,2001,"San Francisco, CA",37.784827,-122.727802
+San Jose-Sunnyvale-Santa Clara,CA,78400,786435.2222,2001,"San Jose, CA",37.189396,-121.705327
+Visalia-Porterville,CA,900,173791.6667,2001,"Visalia-Tulare-Porterville, CA",36.06523,-119.01677
+Boulder,CO,15700,345736.5741,2001,"Boulder-Longmont, CO",40.16721,-105.10193
+Denver-Aurora-Lakewood,CO,49190,220895.4147,2001,"Denver, CO",39.744773,-105.115977
+Fort Collins,CO,3170,208862.3737,2001,"Fort Collins-Loveland, CO",40.615974,-105.069249
+Bridgeport-Stamford-Norwalk,CT,4170,239516.6667,2001,"Bridgeport, CT",41.308873,-73.363661
+Hartford-West Hartford-East Hartford,CT,20190,153062.037,2001,"Hartford, CT",41.752304,-72.758098
+New Haven-Milford,CT,4870,110102.0833,2001,"New Haven-Meriden, CT",41.53815,-72.80704
+Miami-Fort Lauderdale-West Palm Beach,FL,15320,171225.7962,2001,"Miami, FL",25.779808,-80.1532
+Naples-Immokalee-Marco Island,FL,1110,835785,2001,"Naples, FL",26.142036,-81.79481
+Orlando-Kissimmee-Sanford,FL,18200,156582.7899,2001,"Orlando, FL",28.545179,-81.373291
+Pensacola-Ferry Pass-Brent,FL,2420,108780.5556,2001,"Pensacola, FL",30.428781,-87.222516
+Atlanta-Sandy Springs-Roswell,GA,68670,336895.1691,2001,"Atlanta, GA",33.844371,-84.47405
+Des Moines-West Des Moines,IA,7900,94975.83333,2001,"Des Moines, IA",41.672687,-93.572173
+Chicago-Naperville-Elgin,IL,105140,214928.1915,2001,"Chicago, IL",41.850033,-87.650052
+Peoria,IL,1800,51579.16667,2001,"Peoria-Pekin, IL",40.56754,-89.64066
+Indianapolis-Carmel-Anderson,IN,16610,123729.7414,2001,"Indianapolis, IN",39.775092,-86.13216
+Lafayette-West Lafayette,IN,890,109815.625,2001,"Lafayette, IN",40.417778,-86.889633
+South Bend-Mishawaka,IN,1740,94219.44444,2001,"South Bend, IN",41.673383,-86.251654
+Lexington-Fayette,KY,4820,130137.963,2001,"Lexington, KY",37.98869,-84.47772
+New Orleans-Metairie,LA,7880,200709.8958,2001,"New Orleans, LA",30.068812,-89.930956
+Baltimore-Columbia-Towson,MD,34280,123921.124,2001,"Baltimore, MD",39.324167,-76.719484
+Portland-South Portland,ME,3710,156805.9524,2001,"Portland, ME",43.658784,-70.262393
+Detroit-Warren-Dearborn,MI,44760,156155.7692,2001,"Detroit, MI",42.347021,-83.060184
+Grand Rapids-Wyoming,MI,6350,109014.6825,2001,"Grand Rapids-Muskegon-Holland, MI",42.993317,-85.5889
+Kalamazoo-Portage,MI,1920,101971.875,2001,"Kalamazoo-Battle Creek, MI",42.32115,-85.17971
+Hickory-Lenoir-Morganton,NC,790,114662.5,2001,"Hickory-Morganton-Lenoir, NC",35.23915,-77.64127
+Raleigh,NC,36360,178792.1053,2001,"Raleigh-Durham-Chapel Hill, NC",35.9132,-79.05584
+Manchester-Nashua,NH,2160,144537.2807,2001,"Manchester, NH",42.988483,-71.462111
+Vineland-Bridgeton,NJ,350,74025,2001,"Vineland-Millville-Bridgeton, NJ",39.433288,-75.017849
+Buffalo-Cheektowaga-Niagara Falls,NY,8960,81944.04762,2001,"Buffalo-Niagara Falls, NY",42.537897,-76.649045
+New York-Newark-Jersey City,NY,95470,324414.4834,2001,"New York, NY",40.714269,-74.005973
+Cleveland-Elyria,OH,18820,192957.6923,2001,"Cleveland-Lorain-Elyria, OH",41.490728,-81.725831
+Dayton,OH,9910,93430,2001,"Dayton-Springfield, OH",39.92423,-83.80882
+Youngstown-Warren-Boardman,OH,1790,64270.83333,2001,"Youngstown-Warren, OH",41.133716,-80.624079
+Eugene,OR,2030,150432.8125,2001,"Eugene-Springfield, OR",44.04624,-123.02203
+Harrisburg-Carlisle,PA,9320,62041.66667,2001,"Harrisburg-Lebanon-Carlisle, PA",40.253789,-76.829482
+York-Hanover,PA,1370,108433.3333,2001,"York, PA",39.962998,-76.727139
+Nashville-Davidson--Murfreesboro--Franklin,TN,9620,149544.6667,2001,"Nashville, TN",36.165688,-86.778098
+Austin-Round Rock,TX,31260,193659.6442,2001,"Austin-San Marcos, TX",30.70013,-96.323824
+Dallas-Fort Worth-Arlington,TX,75400,137939.4444,2001,"Dallas, TX",32.781179,-96.790329
+Houston-The Woodlands-Sugar Land,TX,52760,144795.9375,2001,"Houston, TX",29.813142,-95.309789
+San Antonio-New Braunfels,TX,11990,109861.4238,2001,"San Antonio, TX",29.468413,-98.528889
+Salt Lake City,UT,20150,181438.5965,2001,"Salt Lake City-Ogden, UT",40.705141,-111.869687
+Richmond,VA,14840,152062.0098,2001,"Richmond-Petersburg, VA",37.914991,-76.858014
+Burlington-South Burlington,VT,3530,108658.3333,2001,"Burlington, VT",44.476622,-73.209998
+Bremerton-Silverdale,WA,1170,402963.8889,2001,"Bremerton, WA",47.606478,-122.634712
+Olympia-Tumwater,WA,3550,138586.6667,2001,"Olympia, WA",46.984767,-122.869079
+Seattle-Tacoma-Bellevue,WA,66040,260869.6694,2001,"Seattle-Bellevue-Everett, WA",47.97898,-122.20208
+Spokane-Spokane Valley,WA,3340,98104.54545,2001,"Spokane, WA",47.65878,-117.426047
+Appleton,WI,2370,91655,2001,"Appleton-Oshkosh-Neenah, WI",44.290005,-88.407506
+Milwaukee-Waukesha-West Allis,WI,17280,123647.191,2001,"Milwaukee-Waukesha, WI",43.01168,-88.23148
+Birmingham-Hoover,AL,9970,124550.5952,2002,"Birmingham, AL",33.520661,-86.80249
+Little Rock-North Little Rock-Conway,AR,7260,119237.7778,2002,"Little Rock-North Little Rock, AR",34.708985,-92.235641
+Phoenix-Mesa-Scottsdale,AZ,35080,177252.8902,2002,"Phoenix-Mesa, AZ",33.42227,-111.82264
+Chico,CA,560,151825,2002,"Chico-Paradise, CA",39.75961,-121.62192
+Los Angeles-Long Beach-Anaheim,CA,84620,393687.0342,2002,"Los Angeles-Long Beach, CA",34.047247,-118.246183
+Riverside-San Bernardino-Ontario,CA,9250,201361.5873,2002,"Riverside-San Bernardino, CA",34.033515,-117.502665
+Sacramento--Roseville--Arden-Arcade,CA,22350,246827.3537,2002,"Sacramento, CA",38.380456,-121.555406
+San Diego-Carlsbad,CA,34510,359092.437,2002,"San Diego, CA",32.724103,-117.170912
+San Francisco-Oakland-Hayward,CA,41040,575068.5921,2002,"San Francisco, CA",37.784827,-122.727802
+San Jose-Sunnyvale-Santa Clara,CA,64440,789418.7778,2002,"San Jose, CA",37.189396,-121.705327
+Visalia-Porterville,CA,890,187444.4444,2002,"Visalia-Tulare-Porterville, CA",36.06523,-119.01677
+Boulder,CO,11570,363627.3148,2002,"Boulder-Longmont, CO",40.16721,-105.10193
+Denver-Aurora-Lakewood,CO,44630,229986.0048,2002,"Denver, CO",39.744773,-105.115977
+Fort Collins,CO,3510,222026.5152,2002,"Fort Collins-Loveland, CO",40.615974,-105.069249
+Bridgeport-Stamford-Norwalk,CT,3370,260905,2002,"Bridgeport, CT",41.308873,-73.363661
+Hartford-West Hartford-East Hartford,CT,19070,170716.6667,2002,"Hartford, CT",41.752304,-72.758098
+New Haven-Milford,CT,4660,121984.375,2002,"New Haven-Meriden, CT",41.53815,-72.80704
+Miami-Fort Lauderdale-West Palm Beach,FL,14530,195126.9639,2002,"Miami, FL",25.779808,-80.1532
+Naples-Immokalee-Marco Island,FL,1090,978738.3333,2002,"Naples, FL",26.142036,-81.79481
+Orlando-Kissimmee-Sanford,FL,19310,170306.1594,2002,"Orlando, FL",28.545179,-81.373291
+Pensacola-Ferry Pass-Brent,FL,2730,111211.1111,2002,"Pensacola, FL",30.428781,-87.222516
+Atlanta-Sandy Springs-Roswell,GA,73540,350710.0242,2002,"Atlanta, GA",33.844371,-84.47405
+Des Moines-West Des Moines,IA,7850,100125.5556,2002,"Des Moines, IA",41.672687,-93.572173
+Chicago-Naperville-Elgin,IL,98810,234100.1773,2002,"Chicago, IL",41.850033,-87.650052
+Peoria,IL,2170,54254.16667,2002,"Peoria-Pekin, IL",40.56754,-89.64066
+Indianapolis-Carmel-Anderson,IN,17940,126311.9253,2002,"Indianapolis, IN",39.775092,-86.13216
+Lafayette-West Lafayette,IN,1010,116775,2002,"Lafayette, IN",40.417778,-86.889633
+South Bend-Mishawaka,IN,1870,98594.44444,2002,"South Bend, IN",41.673383,-86.251654
+Lexington-Fayette,KY,5020,136381.4815,2002,"Lexington, KY",37.98869,-84.47772
+New Orleans-Metairie,LA,6990,216272.3958,2002,"New Orleans, LA",30.068812,-89.930956
+Baltimore-Columbia-Towson,MD,37390,138772.4806,2002,"Baltimore, MD",39.324167,-76.719484
+Portland-South Portland,ME,3540,181285.7143,2002,"Portland, ME",43.658784,-70.262393
+Detroit-Warren-Dearborn,MI,45480,163928.8462,2002,"Detroit, MI",42.347021,-83.060184
+Grand Rapids-Wyoming,MI,7050,115291.2698,2002,"Grand Rapids-Muskegon-Holland, MI",42.993317,-85.5889
+Kalamazoo-Portage,MI,1960,106333.3333,2002,"Kalamazoo-Battle Creek, MI",42.32115,-85.17971
+Hickory-Lenoir-Morganton,NC,750,120341.6667,2002,"Hickory-Morganton-Lenoir, NC",35.23915,-77.64127
+Raleigh,NC,34530,183705.7018,2002,"Raleigh-Durham-Chapel Hill, NC",35.9132,-79.05584
+Manchester-Nashua,NH,1990,167447.807,2002,"Manchester, NH",42.988483,-71.462111
+Vineland-Bridgeton,NJ,340,73300,2002,"Vineland-Millville-Bridgeton, NJ",39.433288,-75.017849
+Buffalo-Cheektowaga-Niagara Falls,NY,8570,86186.30952,2002,"Buffalo-Niagara Falls, NY",42.537897,-76.649045
+New York-Newark-Jersey City,NY,93750,361379.7663,2002,"New York, NY",40.714269,-74.005973
+Cleveland-Elyria,OH,17850,199520.5128,2002,"Cleveland-Lorain-Elyria, OH",41.490728,-81.725831
+Dayton,OH,9270,97353.33333,2002,"Dayton-Springfield, OH",39.92423,-83.80882
+Youngstown-Warren-Boardman,OH,2110,64750,2002,"Youngstown-Warren, OH",41.133716,-80.624079
+Eugene,OR,1920,157902.0833,2002,"Eugene-Springfield, OR",44.04624,-123.02203
+Harrisburg-Carlisle,PA,9860,64358.33333,2002,"Harrisburg-Lebanon-Carlisle, PA",40.253789,-76.829482
+York-Hanover,PA,1350,112408.3333,2002,"York, PA",39.962998,-76.727139
+Nashville-Davidson--Murfreesboro--Franklin,TN,12030,154566.4444,2002,"Nashville, TN",36.165688,-86.778098
+Austin-Round Rock,TX,31990,192527.2472,2002,"Austin-San Marcos, TX",30.70013,-96.323824
+Dallas-Fort Worth-Arlington,TX,72520,139629.8718,2002,"Dallas, TX",32.781179,-96.790329
+Houston-The Woodlands-Sugar Land,TX,45950,145996.6667,2002,"Houston, TX",29.813142,-95.309789
+San Antonio-New Braunfels,TX,17930,110833.5541,2002,"San Antonio, TX",29.468413,-98.528889
+Salt Lake City,UT,18330,182290.3509,2002,"Salt Lake City-Ogden, UT",40.705141,-111.869687
+Richmond,VA,15120,168930.8824,2002,"Richmond-Petersburg, VA",37.914991,-76.858014
+Burlington-South Burlington,VT,3100,120258.3333,2002,"Burlington, VT",44.476622,-73.209998
+Bremerton-Silverdale,WA,1450,435822.2222,2002,"Bremerton, WA",47.606478,-122.634712
+Olympia-Tumwater,WA,3530,146220,2002,"Olympia, WA",46.984767,-122.869079
+Seattle-Tacoma-Bellevue,WA,65120,271246.2551,2002,"Seattle-Bellevue-Everett, WA",47.97898,-122.20208
+Spokane-Spokane Valley,WA,3030,101618.1818,2002,"Spokane, WA",47.65878,-117.426047
+Appleton,WI,2330,92568.33333,2002,"Appleton-Oshkosh-Neenah, WI",44.290005,-88.407506
+Milwaukee-Waukesha-West Allis,WI,19520,133503.839,2002,"Milwaukee-Waukesha, WI",43.01168,-88.23148
+Birmingham-Hoover,AL,8600,132661.9048,2003,"Birmingham, AL",33.520661,-86.80249
+Little Rock-North Little Rock-Conway,AR,5840,127355,2003,"Little Rock-North Little Rock, AR",34.708985,-92.235641
+Phoenix-Mesa-Scottsdale,AZ,36410,186127.3121,2003,"Phoenix-Mesa, AZ",33.42227,-111.82264
+Chico,CA,810,183458.3333,2003,"Chico-Paradise, CA",39.75961,-121.62192
+Los Angeles-Long Beach-Anaheim,CA,86490,465158.6687,2003,"Los Angeles-Long Beach, CA",34.047247,-118.246183
+Riverside-San Bernardino-Ontario,CA,9940,238486.0979,2003,"Riverside-San Bernardino, CA",34.033515,-117.502665
+Sacramento--Roseville--Arden-Arcade,CA,24350,285349.8099,2003,"Sacramento, CA",38.380456,-121.555406
+San Diego-Carlsbad,CA,33480,422478.9916,2003,"San Diego, CA",32.724103,-117.170912
+San Francisco-Oakland-Hayward,CA,42530,605764.7714,2003,"San Francisco, CA",37.784827,-122.727802
+San Jose-Sunnyvale-Santa Clara,CA,56480,785984.1111,2003,"San Jose, CA",37.189396,-121.705327
+Visalia-Porterville,CA,870,207825,2003,"Visalia-Tulare-Porterville, CA",36.06523,-119.01677
+Boulder,CO,11150,362789.1204,2003,"Boulder-Longmont, CO",40.16721,-105.10193
+Denver-Aurora-Lakewood,CO,44320,233104.9043,2003,"Denver, CO",39.744773,-105.115977
+Fort Collins,CO,3470,227369.9495,2003,"Fort Collins-Loveland, CO",40.615974,-105.069249
+Bridgeport-Stamford-Norwalk,CT,3910,285420,2003,"Bridgeport, CT",41.308873,-73.363661
+Hartford-West Hartford-East Hartford,CT,19890,191227.193,2003,"Hartford, CT",41.752304,-72.758098
+New Haven-Milford,CT,5100,136984.0278,2003,"New Haven-Meriden, CT",41.53815,-72.80704
+Miami-Fort Lauderdale-West Palm Beach,FL,16960,221356.5608,2003,"Miami, FL",25.779808,-80.1532
+Naples-Immokalee-Marco Island,FL,1220,1093161.667,2003,"Naples, FL",26.142036,-81.79481
+Orlando-Kissimmee-Sanford,FL,18530,185992.9348,2003,"Orlando, FL",28.545179,-81.373291
+Pensacola-Ferry Pass-Brent,FL,2970,119386.1111,2003,"Pensacola, FL",30.428781,-87.222516
+Atlanta-Sandy Springs-Roswell,GA,84270,354600.8454,2003,"Atlanta, GA",33.844371,-84.47405
+Des Moines-West Des Moines,IA,8990,106868.6111,2003,"Des Moines, IA",41.672687,-93.572173
+Chicago-Naperville-Elgin,IL,102300,249878.6643,2003,"Chicago, IL",41.850033,-87.650052
+Peoria,IL,1960,54500,2003,"Peoria-Pekin, IL",40.56754,-89.64066
+Indianapolis-Carmel-Anderson,IN,17370,129118.6782,2003,"Indianapolis, IN",39.775092,-86.13216
+Lafayette-West Lafayette,IN,990,116663.5417,2003,"Lafayette, IN",40.417778,-86.889633
+South Bend-Mishawaka,IN,1770,94011.11111,2003,"South Bend, IN",41.673383,-86.251654
+Lexington-Fayette,KY,5400,142776.8519,2003,"Lexington, KY",37.98869,-84.47772
+New Orleans-Metairie,LA,8180,226155.0505,2003,"New Orleans, LA",30.068812,-89.930956
+Baltimore-Columbia-Towson,MD,40690,159810.8059,2003,"Baltimore, MD",39.324167,-76.719484
+Portland-South Portland,ME,3060,210621.4286,2003,"Portland, ME",43.658784,-70.262393
+Detroit-Warren-Dearborn,MI,40490,171257.0513,2003,"Detroit, MI",42.347021,-83.060184
+Grand Rapids-Wyoming,MI,7400,120494.8413,2003,"Grand Rapids-Muskegon-Holland, MI",42.993317,-85.5889
+Kalamazoo-Portage,MI,2030,111141.6667,2003,"Kalamazoo-Battle Creek, MI",42.32115,-85.17971
+Greensboro-High Point,NC,9650,178808.3333,2003,"Greensboro--Winston-Salem--High Point, NC",36.079657,-79.748189
+Hickory-Lenoir-Morganton,NC,790,122654.1667,2003,"Hickory-Morganton-Lenoir, NC",35.23915,-77.64127
+Raleigh,NC,37900,191339.9123,2003,"Raleigh-Durham-Chapel Hill, NC",35.9132,-79.05584
+Manchester-Nashua,NH,2040,191062.2807,2003,"Manchester, NH",42.988483,-71.462111
+Vineland-Bridgeton,NJ,310,78358.33333,2003,"Vineland-Millville-Bridgeton, NJ",39.433288,-75.017849
+Buffalo-Cheektowaga-Niagara Falls,NY,9300,100643.8889,2003,"Buffalo-Niagara Falls, NY",42.537897,-76.649045
+New York-Newark-Jersey City,NY,92280,413308.1796,2003,"New York, NY",40.714269,-74.005973
+Cleveland-Elyria,OH,19180,207374.359,2003,"Cleveland-Lorain-Elyria, OH",41.490728,-81.725831
+Dayton,OH,10350,102521.6667,2003,"Dayton-Springfield, OH",39.92423,-83.80882
+Youngstown-Warren-Boardman,OH,2390,64295.83333,2003,"Youngstown-Warren, OH",41.133716,-80.624079
+Eugene,OR,1860,167885.4167,2003,"Eugene-Springfield, OR",44.04624,-123.02203
+Harrisburg-Carlisle,PA,9450,67408.33333,2003,"Harrisburg-Lebanon-Carlisle, PA",40.253789,-76.829482
+York-Hanover,PA,1370,118072.2222,2003,"York, PA",39.962998,-76.727139
+Nashville-Davidson--Murfreesboro--Franklin,TN,11800,159310,2003,"Nashville, TN",36.165688,-86.778098
+Austin-Round Rock,TX,33180,189837.8277,2003,"Austin-San Marcos, TX",30.70013,-96.323824
+Dallas-Fort Worth-Arlington,TX,71250,141877.9487,2003,"Dallas, TX",32.781179,-96.790329
+Houston-The Woodlands-Sugar Land,TX,45170,147735.4167,2003,"Houston, TX",29.813142,-95.309789
+San Antonio-New Braunfels,TX,14780,113699.0066,2003,"San Antonio, TX",29.468413,-98.528889
+Salt Lake City,UT,20460,181944.2982,2003,"Salt Lake City-Ogden, UT",40.705141,-111.869687
+Richmond,VA,15960,186197.8571,2003,"Richmond-Petersburg, VA",37.914991,-76.858014
+Burlington-South Burlington,VT,3100,129275,2003,"Burlington, VT",44.476622,-73.209998
+Bremerton-Silverdale,WA,1460,460944.4444,2003,"Bremerton, WA",47.606478,-122.634712
+Olympia-Tumwater,WA,3530,158641.6667,2003,"Olympia, WA",46.984767,-122.869079
+Seattle-Tacoma-Bellevue,WA,62820,284446.9298,2003,"Seattle-Bellevue-Everett, WA",47.97898,-122.20208
+Spokane-Spokane Valley,WA,3030,105650,2003,"Spokane, WA",47.65878,-117.426047
+Appleton,WI,2590,96608.33333,2003,"Appleton-Oshkosh-Neenah, WI",44.290005,-88.407506
+Milwaukee-Waukesha-West Allis,WI,19820,145688.2959,2003,"Milwaukee-Waukesha, WI",43.01168,-88.23148
