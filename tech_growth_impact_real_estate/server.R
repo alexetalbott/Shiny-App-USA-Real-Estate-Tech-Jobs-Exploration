@@ -24,7 +24,7 @@ shinyServer(function(input, output, session) {
     else {
    
     switch(input$n_rows_map,
-           "5" = yearInput() %>% head(),
+           "5" = yearInput() %>% head(5),
            "10" = yearInput() %>% head(10),
            "20" = yearInput() %>% head(20),
            "50" = yearInput() %>% head(50),
@@ -86,7 +86,7 @@ shinyServer(function(input, output, session) {
     xlim(0,max(maxx)*1.2)
     
     if (input$checkbox == TRUE){
-      scatteryear2 <- scatteryear + scale_x_continuous(trans="log10",limits=(c(NA,1e5)))
+      scatteryear2 <- scatteryear + scale_x_continuous(trans="log10",limits=(c(NA,1e6)))
       ggplotly(scatteryear2)
     } else {
       ggplotly(scatteryear)
@@ -126,6 +126,60 @@ shinyServer(function(input, output, session) {
       scale_y_continuous(sec.axis = sec_axis(~.*.2))  + labs(title=paste0(input$cities2," Real Estate & Tech Jobs"))
 
   })   
+  
+  observe({
+    updateSelectInput(session = session, inputId = "cityLine_city", choices = sort(unique(ngslim$city_and_state)))
+  })
 
+  observe({
+    updateSelectInput(session = session, inputId = "cityLine_city2", choices = sort(unique(ngslim$city_and_state)))
+  })
+
+
+  output$cityLine_plot <- renderPlot({
+    sumCity <- ngslim %>% group_by(city_and_state, City, State, year) %>% summarise(home_value = mean(median_value))
+
+    cityLineOutput <- sumCity %>% filter(city_and_state==as.character(input$cityLine_city))
+
+    ggplot(cityLineOutput) + aes(x=year,y=home_value) + geom_line() + geom_point(shape=21, size=3) + scale_fill_manual(values="white") + ylab("Zestimate") +
+      labs(title=paste0(as.character(input$cityLine_city)," Home Values"))
+  })
+
+  output$cityLine_plot2 <- renderPlot({
+    sumCity2 <- ngslim %>% group_by(city_and_state, City, State, year) %>% summarise(home_value = mean(median_value))
+
+    cityLineOutput2 <- sumCity2 %>% filter(city_and_state==as.character(input$cityLine_city2))
+    
+    ggplot(cityLineOutput2) + aes(x=year,y=home_value) + geom_line() + geom_point(shape=21, size=3) + scale_fill_manual(values="black") + ylab("Zestimate") +
+      labs(title=paste0(as.character(input$cityLine_city2)," Home Values"))
+
+  })
+  # begin blsLine
+  # observe({
+  #   updateSelectInput(session = session, inputId = "blsLine_city", choices = sort(unique(ngslim$city_and_state)))
+  # })
+  # 
+  # observe({
+  #   updateSelectInput(session = session, inputId = "blsLine_city2", choices = sort(unique(ngslim$city_and_state)))
+  # })
+  # 
+  # 
+  # output$cityLine_plot <- renderPlot({
+  #   sumCity <- ngslim %>% group_by(city_and_state, City, State, year) %>% summarise(home_value = mean(median_value))
+  #   
+  #   cityLineOutput <- sumCity %>% filter(city_and_state==as.character(input$cityLine_city))
+  #   
+  #   ggplot(cityLineOutput) + aes(x=year,y=home_value) + geom_line() + geom_point() + ylab("Zestimate")
+  #   
+  # })
+  # 
+  # output$cityLine_plot2 <- renderPlot({
+  #   sumCity2 <- ngslim %>% group_by(city_and_state, City, State, year) %>% summarise(home_value = mean(median_value))
+  #   
+  #   cityLineOutput2 <- sumCity2 %>% filter(city_and_state==as.character(input$cityLine_city2))
+  #   ggplot(cityLineOutput2) + aes(x=year,y=home_value) + geom_line() + geom_point() + ylab("Zestimate")
+  #   
+  # })
+  # 
 
 })
